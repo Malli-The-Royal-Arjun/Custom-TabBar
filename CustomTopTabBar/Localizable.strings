@@ -1,0 +1,1968 @@
+/*
+  Localizable.strings
+
+  Created by Ben Bahrenburg on 1/16/16.
+  Copyright © 2016 vialto.com. All rights reserved.
+*/
+
+/*
+ General
+ */
+"lang_code" = "en";
+"Information" = "Information";
+"back_button_text" = "Back";
+"Ok" = "Ok";
+"general_error_sync_failed" = "Unable to Synchronize your information. Please try again later.";
+"unable_to_open_email" = "Sorry unable to open your email. Please check your device and try again.";
+"email_sent_failure" = "Sorry we were not able to successfully send your email. Please try again later.";
+"email_sent_success" = "Your email was successfully sent.";
+"Done" = "Done";
+"Cancel" = "Cancel";
+"Remove" = "Remove";
+"Confirm" = "Confirm";
+"session_expired" = "Your session has expired. For security purposes you will need to login again.";
+"sync_running" = "Synchronizing...";
+"Continue" = "Continue";
+"corruption_reset" = "We have run into problem. MyMobility will try to resolve this problem. Please try to login again.";
+"Download" = "Download";
+"Submit" = "Submit";
+"Edit" = "Edit";
+"Stop" = "Stop";
+"edit_complete" = "Done Editing";
+"no_email_support" = "We were unable to find your email application. Please check your configuration and try again.";
+"Warning" = "Warning";
+"network_error" = "We have encountered a problem connecting to Vialto Partners. Please check your connection and try again.";
+"network_timeout" = "It is taking longer then expected to connect to Vialto Partners. Please check your connection and try again.";
+"invalid_model" = "We are missing information needed to synchronize your account. Please contact Vialto Partners Support.";
+"support_email_address" = "support@gms.vialto.com";
+"Send" = "Send";
+"Finish" = "Finish";
+"Immigration" = "Immigration";
+"Tax" = "Tax";
+"Upload" = "Upload";
+"AM" = "AM";
+"PM" = "PM";
+"Save" = "Save";
+"canceling_wait" ="Canceling...";
+"Yes" = "Yes";
+"No" = "No";
+"Close" = "Close";
+"Loading" = "Loading...";
+"invalid_phone_number_format" = "Please enter a valid phone number";
+"More" = "More";
+"note_characters_remaining" = "%i characters remaining";
+"note_no_characters_remaining" = "You have reached the maximum note size";
+"attention_required" = "Attention required";
+"Resolve" = "Resolve";
+"Open" = "Open";
+"Add" = "Add";
+"Today" = "Today";
+"Tomorrow" = "Tomorrow";
+"Yesterday" = "Yesterday";
+"No action required" = "No action required";
+"Delete" = "Delete";
+"Create" = "Create";
+"Saving" = "Saving...";
+"Removing" = "Removing...";
+"Fixing" = "Fixing...";
+"Fix_Issue" = "Fix Issue";
+"Learn_More" = "Learn more";
+"Clear" = "Clear";
+"Authorizing" = "Authorizing...";
+"Preparing" = "Preparing...";
+"i_agree" = "I Agree";
+"Verifying" = "Verifying...";
+"Next" = "Next";
+"and" = "and";
+"add_to_calendar" = "Add to calendar";
+"schedule_reminder" = "Schedule Reminder";
+"Sending" = "Sending...";
+"immigration_service" = "Immigration Service";
+
+/*
+Tax Insights Screen
+ */
+"view_tax_return_summary" = "View Tax Return Summary";
+"my_tax_return" = "My Tax Return";
+"tasks" = "Tasks";
+"tax_insights" = "Tax Insights";
+"view_tax_return" = "View My Tax Return";
+"replay_tax_return_story" = "Replay My Tax Return Story";
+"track_refund" = "Track refund";
+"action_required_label" = "Action required";
+"all_done_label" = "All Done";
+"tasks_outstanding" = "%i task%@ outstanding";
+"tasks_complete" = "%i task%@ complete";
+"actions_completed" = "All actions completed";
+"total_refund" = "Total Refunds";
+"total_payments" = "Total Payments";
+
+"RefundSentToAssignee" = "This refund will be mailed to you";
+"RefundDirectDepositedToAssignee" = "This refund will be direct deposited to your account";
+"RefundSentToCompany" = "This refund will be sent directly to your employer";
+"RefundReceivedByAssignee" = "Remit this refund to your employer once received";
+"DuetoCompany" = "Remit refund to employer";
+"RefundFullyAppliedToNextYear" = "This refund will be applied to next year’s tax due";
+
+"PaymentToBeMadeByAssignee" = "You need to make this payment";
+"PaymentToBeDirectDebitedFromAssignee" = "This payment will be direct debited from your account";
+"PaymentToBeMadeByCompany" = "This payment due will be made by your employer";
+
+"efile_constent_required" = "%@E-File consent required";
+"paper_filing_required" = "Paper filing required";
+"e_file" = "E-FILE";
+"paper_file" = "PAPER FILE";
+"payment" = "PAYMENT";
+"filing" = "FILING";
+"filed" = "Filed";
+
+
+"invite_spouse_to_efile" = "Complete spouse E-File consent";
+"upload_efile" = "Upload E-File consent";
+"complete_efile" = "Complete E-File consent %@";
+"complete_paperfile" = "Complete paper filing";
+"complete_payment" = "Complete tax payment of %@";
+"due_on" = "Due %@";
+"paid_on" = "Marked as paid on %@";
+"filed_on" = "Marked as filed on %@";
+"completed_on" = "Completed on %@";
+"refund" = "refund";
+"balance_due" = "Balance due";
+"payment_due" = "payment due";
+"refund_to_me" = "REFUNDED TO ME";
+"payment_due_me" = "PAYMENTS DUE FROM ME";
+"all_caught_up" = "Well done! You are all caught up.";
+"show_tasks_label" = "Show completed tasks (%i)";
+"hide_tasks_label" = "Hide completed tasks (%i)";
+
+"efile_be_vialto" = "Your tax return will be E-Filed by Vialto";
+"efile_by_vialto" = "Your tax return is in process of being E-Filed by Vialto";
+"successfully_efile" = "Your tax return was successfully E-Filed on %@";
+"efile_complete" = "E-Filing complete";
+"efile_process" = "E-File in process";
+"invite_your_spouse_label" = "Complete spouse E-File Consent for %@";
+"upload_efile_label" = "Upload E-File Consent for %@";
+"complete_efile_label" = "Complete E-File consent for %@";
+
+"complete_esign_label" = "Complete E-File consent for %@";
+"complete_paperfile_label" = "Complete Paper Filing for %@";
+
+"pending_esign_descrption" = "Your tax return is ready for review. Complete the E-Sign process, to authorize Vialto Partners to submit your tax return(s) eligible for E-File on your behalf.";
+"complete_esign_descrption" = "You have completed the E-Sign process and authorized Vialto Partners to submit your tax return(s) eligible for E-File on your behalf. View the status of E-Filing in the My Tax Return section.";
+
+"invite_efile_descrption" = "Thank you for providing your individual E-File consent. In the %@, both you and your spouse are required to sign before the returns can be transmitted.\n\nBefore we can E-File you and your spouse's tax return, we will also need your spouse to E-Sign the consent forms. An email invitation has been sent to your spouse to complete E-file consent.";
+"invite_to_complete_efile" = " (Login to your account at myMobility.vialto.com to resend the consent email invitation to your spouse.)";
+
+"invite_marked_complete" = "This task be marked complete once your spouse has signed the consent.";
+"upload_marked_complete" = "This task be marked complete once your Vialto team has reviewed your uploaded consent.";
+
+"upload_efile_descrption" = "Your tax return is ready for review. Please see the instructions within your tax return document to print, sign, and upload your E-File consent form(s).\n\nOnce you provided, Vialto Partners can submit your tax return(s) eligible for E-File on your behalf.";
+
+"invite_spouse_button" = "Invite Spouse";
+"upload_efile_button" = "Upload E-File Consent";
+"complete_esign_button" = "Complete E-Sign";
+
+"complete_paperfile_descrption" = "This tax return requires paper filing. Please print, sign and mail the tax return and payment voucher (if applicable) to:";
+"document_paperfile_descrption" = "Additional details can be found in your tax return documents.";
+"mailing_paperfile_descrption" = "Once mailed please upload a copy of your mailing and payment receipts (if applicable) to your Documents section.";
+"action_required" = "Action required by %@";
+"complete_on" = "Completed on %@";
+"marked_filed_on" = "Marked as filed on %@";
+"tax_return_result_label" = "My Tax Return Results";
+"tax_highlights_label" = "My Tax Highlights";
+"tax_reconciliation" = "TAX RECONCILIATION";
+"due_to_employer" = "Due to the employer";
+"due_from_employer" = "Due from the employer";
+"net_amount_in_pocket" = "Net amount in pocket";
+"net_amount_out_pocket" = "Net amount out pocket";
+"reconciliation_descrption" = "This is the net amount due to or from you as a result of all your tax filings and tax reconciliation calculation (if applicable)";
+"show_more" = "Show more";
+"show_less" = "Show less";
+"other_tax_return_result_label" = "OTHER TAX RETURN RESULTS WITH NO IMPACT TO YOU";
+"applied_next_year_tax_due" = "%@ refund will be applied to your next year tax due";
+"paid_directly_to_employer" = "%@ refund will be paid directly to your employer";
+"paid_by_employer" = "%@ balance due will be paid by your employer";
+"affecting_tax_return_result" = "Review the highlights below to see key factors affecting your tax return results.";
+"impacting_results_label" = "WHAT IS IMPACTING MY RESULTS?";
+"total_label" = "Total";
+"faqs_label" = "FAQs";
+"total_income_label" = "Total Income";
+"employee_income_label" = "Employment Income";
+"personal_income_label" = "Personal Income";
+"effective_tax_rate_label" = "Effective tax rate";
+"how_calcualtion_label" = "How is %@ calculated?";
+"employee_income_descrption" = "includes any wages, salaries, or other income earned through employment during the tax year.";
+"personal_income_descrption" = "includes any interest, dividends, or other sources of income not included in your employment income.";
+"effective_tax_rate_descrption" = "is the average rate at which your income is taxed, excluding social tax.";
+
+"how_to_paperfile_label" = "How to Paper File";
+"upload_label" = "Upload mailing receipt";
+"mark_as_filied" = "Mark as filed";
+"mark_as_filied_descrption" = "“Mark as filed” for your reference only. Completing this action does not notify the tax authorities about a tax return filing you may have made.";
+"undo_mark_as_filied" = "Undo Mark as Filed?";
+"undo_mark_as_filied_descrption" = "You have marked this task as complete. Click Confirm to undo “Mark as filed” and move this task to outstanding.";
+
+"paid" = "Paid";
+"upload_receipt" = "Upload Receipt";
+"upload_payment_receipt" = "Upload payment receipt";
+"how_to_complete_payment" = "How to Complete Payment";
+"complete_payment_label" = "Complete Tax Payment for %@";
+"complete_payment_description" = "This tax return has a payment due. Please select a payment option below to complete your payment to the tax authority. ";
+"payment_options" = "Payment Options";
+"view_payment_vocher" = "View\nPayment Voucher";
+"pay_online" = "Pay Online";
+
+"view_my_tax_return_documents" = "View my tax return documents";
+"payment_option_subtitle" = "Once paid please upload a copy of your payment receipt to your Documents section.";
+
+"mark_as_paid" = "Mark as paid";
+"mark_as_paid_descrption" = "“Mark as paid” is for your reference only. Completing this action does not notify the tax authorities about a tax return payment you may have made.";
+"undo_mark_as_paid" = "Undo Mark as Paid?";
+"undo_mark_as_paid_descrption" = "You have marked this task as complete. Click Confirm to undo “Mark as paid” and move this task to outstanding. ";
+
+"tax_return_document_label" = "My Tax Return Documents";
+"tax_return_label" = "Tax Returns";
+"tax_reconciliation_label" = "Tax Reconciliation";
+"payment_vouchers_label" = "Payment Vouchers";
+"other_document_label" = "Other documents";
+
+"hi_name_label" = "Hi %@!";
+"net_amount_out_of_pocket" = "Net amount out of pocket";
+"your_tax_return_ready" = "Your %@ Tax Returns are ready";
+"tax_highlights_year_label" = "Your tax highlights for this year";
+"your_personalized_label" = "Let’s look at your personalized tax summary and actions for this year";
+"your_tax_return_label" = "Here‘s a summary of your\n %@ Tax Returns";
+"tax_payment_label" = "Tax payment(s)";
+"tax_refund_label" = "Tax refund(s)";
+"due_to_employer_label" = "Payment due to employer";
+"tax_recon_label" = "Tax reconciliation";
+"check_outstanding_tasks_label" = "Let’s check your outstanding tasks";
+"efile_consent_for" = "Complete E-file consent for";
+"paperfile_for" = "Paper file the tax return for";
+"pay_balance_due_for" = "Pay your balance due for";
+"your_effective_tax_rate" = "Your effective tax rate";
+"impact_result_label" = "What’s impacting my results";
+"impact_result_desc" = "You have a tax liability due on your sale of %@ stock that created capital gains for you and your spouse within the tax year";
+"explore_dashboard" = "There’s more to explore in your %@ Tax Return Dashboard";
+"track_progress" = "Track your tax return progress";
+"get_started" = "Let’s get started";
+
+/*
+ Intro Screen
+ */
+"intro_skip_label" = "Skip";
+"intro_get_started_button" = "Get Started";
+"intro_welcome_page_title" = "Welcome to myMobility";
+"intro_welcome_page_description" = "Simplifying your mobility. Get started with a quick tour.";
+
+"intro_vialto_page_title" = "We're now Vialto Partners";
+"intro_vialto_page_description" = "Same award-winning service, now with a new name. We are excited to welcome you to Vialto Partners.";
+
+"intro_about_page_title" = "Everything in a single place";
+"intro_about_status_title" = "Status";
+"intro_about_status_descr" = "Get peace of mind with built-in transparency on the status of your return, visa, certificate of coverage, or other mobility matters.";
+"intro_about_actions_title" = "Actions";
+"intro_about_actions_descr" = "No surprises, know what you need to do when. We let you know next steps, and help you get to done faster.";
+"intro_about_notifications_title" = "Notifications";
+"intro_about_notifications_descr" = "Get notifications and resolve issues as simple as texting.";
+"intro_about_stay_informed_title" = "Stay Informed";
+"intro_about_stay_informed_descr" = "Throughout the process, expect clear and effective communication.";
+"intro_calendar_page_title" = "Calendar made easy";
+"intro_calendar_travel_calendar_title" = "Travel Calendar";
+"intro_calendar_travel_calendar_descr" = "Capture all your traveling and workday details quickly.";
+"intro_calendar_speed_fill_title" = "Speed Fill";
+"intro_calendar_speed_fill_descr" = "Complete all of your travel and workday details quickly and easily.";
+"intro_calendar_autofill_title" = "Autofill";
+"intro_calendar_autofill_descr" = "Autofill simplifies the process of entering your travel information. Using your device's location services, myMobility automatically completes your travel when possible.";
+"intro_auto_fill_about_title" = "About Autofill";
+"intro_calendar_autofill_learn_more" = "Learn more about autofill";
+"intro_done_page_title" = "We’re glad you’re on this journey with us";
+"intro_done_help_title" = "Need Help?";
+"intro_done_help_descr" = "Your Vialto Partners primary contact is here to help you. You can contact them anytime under the Contacts section of myMobility.";
+"intro_done_stay_informed_title" = "Stay Informed";
+"intro_done_stay_informed_desc" = "Throughout the process, expect clear and effective communication.";
+
+"intro_notification_body_permission" = "Receive Notifications & Messages from Vialto Partners";
+"intro_notification_title_permission" = "Vialto Partners will send you status updates on work we are doing";
+
+/*
+ Home Screen
+ */
+"home_empty_title" = "Welcome to myMobility!";
+"home_empty_desc" = "There are no activities needing your attention at the moment. We will update you on next step soon (if any).\n\nGet started exploring myMobility by tapping on the menu above.";
+"main_welcome_morning" = "Good morning";
+"main_welcome_afternoon" = "Good afternoon";
+"main_welcome_evening" = "Good evening";
+"main_action_title" = "Actions";
+"main_action_subtitle" = "What you need to do";
+"main_notification_title" = "Notifications";
+"main_notification_subtitle" = "What you need to know";
+"main_status_title" = "Status";
+"main_status_subtitle" = "Where your services stand";
+"main_notifications_unread_messages" = "Unread messages";
+"main_notifications_new_files_from_pwc" = "New documents available from Vialto Partners";
+"main_notifications_new_files_from_employer" = "New documents available from your employer";
+"main_notifications_unwatched_briefings" = "New Digital Briefings ready to watch";
+"main_notifications_briefings_needing_confirmation" = "Digital Briefings needing confirmation";
+
+"main_action_empty_state_desc" = "No action needed at this time.  In the future, if we need your assistance, a new action will appear here.";
+"main_status_empty_state_desc" = "You have no work in process by Vialto Partners at this time.  When a new service is started it will show here, and as work progresses we will keep you updated.";
+"main_notification_message_empty_state_desc" = "You have no notifications at this time.  When you get new messages you'll see them here.";
+"main_notification_files_empty_state_desc" = "You have no file notifications at this time.  When you get new file notification you'll see them here.";
+"main_notification_digitalbriefing_empty_state_desc" = "You have no Digital Briefing notifications at this time.  When you get new Digital Briefing notification you'll see them here.";
+
+"main_notifications_message_title" = "Messages %@";
+"main_notifications_files_title" = "Files %@";
+"main_notifications_digital_briefings_title" = "Digital Briefings %@";
+"main_notification_mark_all_msg_read_title" = "Mark all messages read";
+
+/*
+ Tabs Screen
+ */
+"main_menu_home" = "Home";
+"main_window_title" = "Vialto myMobility";
+"main_menu_status" = "Status";
+"main_menu_notification" = "Messages";
+"main_menu_documents" = "Documents";
+"main_menu_contacts" = "Help Center";
+"main_menu_settings" = "Settings";
+"main_menu_briefings" = "Digital Briefings";
+"main_menu_calendar" = "Calendar";
+
+/*
+ Calendar Main Screen (1)
+ */
+
+"calendar_legend_conflict_label" = "Conflict";
+"calendar_legend_not_completed_label" = "Not completed";
+"calendar_legend_completed_label" = "Completed";
+"calendar_legend_to_review_label" = "To Review";
+"calendar_review_button_label" = "Review";
+"calendar_view_section_day_status_not_completed" = "Not yet completed";
+"calendar_view_section_day_status_error" = "Issue needs attention";
+"calendar_view_section_day_status_completed" = "Verified";
+"calendar_view_section_day_status_to_review" = "Needs review";
+"calendar_add_day_text" = "Add travel";
+"calendar_delete_day_text" = "Delete all travel for %@ ?";
+"calendar_more_speed_fill_title" = "Speed fill";
+"calendar_more_delete_day_title" = "Delete currently selected day";
+"calendar_more_work_day_preference_title" = "Work Schedule Preferences";
+"calendar_error_day_section_label" = "Please review your travel details for %@";
+"calendar_autofill_label" = "Autofill";
+
+/*
+Calendar Autofill Permissions Screen
+*/
+"calendar_autofill_permissions_title" = "Autofill Permissions";
+"calendar_autofill_permissions_open_settings" = "Open Settings";
+"calendar_autofill_permissions_grant" = "Grant";
+"calendar_autofill_permissions_learn_more" = "Learn More";
+"calendar_autofill_permissions_grant_descr" = "Vialto Partners Calendar Autofill simplifies the process of entering your travel information by using your device's location services while in the background.\n\nTo start the two step permission process, press the \“Allow While Using App\” when presented with the permissions dialog.\n\nYou will later be asked to grant the \“Always Allow\” permission necessary to use the Calendar Autofill feature.\n\nPlease note, you can revoke this permission any time using your device’s Settings app.";
+"calendar_autofill_permission_incorrect_permission_selected" = "Vialto Partners Calendar needs access to your location services for the Autofill feature to work. Please use the Grant button below to allow access.\n\nTo start the two step permission process, press the \“Allow While Using App\” when presented with the permissions dialog.\n\nYou will later be asked to grant the \“Always Allow\” permission necessary to use the Calendar Autofill feature.\n\nPlease note, you can revoke this permission any time using your device’s Settings app.";
+"calendar_autofill_permissions_declined_descr" = "Vialto Partners Calendar needs access to your location services for the Autofill feature to work. Please use the Open Settings button below to allow access.\n\n1. Tap \"Open Settings\"\n2. Tap \"Location\"\n3. Set \"Allow Location Access\" to \"Always\"\n\nVialto Partners Calendar Autofill simplifies the process of entering your travel information by using your device's location services. \n\nIf you choose not to provide access, you will need to manually complete the calendar.";
+"calendar_autofill_error" = "Failed to grant location service permissions. Please try again at another time.";
+/*
+ Calendar Entry Screen - Add Travel Cell
+ */
+
+"calendar_entry_add_travel_cell_title" = "Did you depart this location the same day?";
+"calendar_entry_add_travel_button_title" = "Add travel";
+"calendar_entry_edit_travel_button_title" = "Edit travel";
+
+"caledar_entry_i_spent_my_day_in" = "I was in";
+"calendar_entry_i_started_my_day" = "I began my day in";
+"calendar_entry_schedule_cell_title" = "Schedule";
+"calendar_entry_note_cell_title" = "Note";
+"calendar_entry_add_note_cell_title" = "Add note";
+"calendar_please_select_location_text" = "Please select location";
+"calendar_entry_traveled_to" = "Traveled to";
+"calendar_entry_arrival_time" = "Arrival time:";
+"calendar_entry_departure_time" = "Departure time:";
+"calendar_please_select_time" = "Please select time";
+"calendar_entry_delete_travel" = "Delete travel?";
+"calendar_entry_travel_options" = "Travel options";
+"calendar_entry_travel_options_detail" = "Manage your travel";
+"calendar_entry_off_day" = "Off Day";
+"calendar_entry_work_day" = "Workday";
+"calendar_entry_half_day" = "Half Day";
+"calendar_entry_add_optional_note" = "Add optional note";
+"calendar_entry_save_failed" = "Failed to save your information please try again.";
+"calendar_entry_cancel_warning" = "Cancel your entry and lose your edits?";
+"calendar_next_day" = "Next day";
+"calendar_same_day" = "Same day";
+"calendar_annual_progress_text" = "Your %@ progress: %@";
+
+"calendar_entry_covid_title" = "COVID-19 Impacted";
+"calendar_entry_covid_desc" = "On %@ my schedule or location was impacted due to COVID-19";
+
+/*
+ Calendar Validation Messages
+ */
+"calendar_validation_missing_location" = "Please add your travel locations";
+"calendar_validation_missing_location_same" = "Travel departure and arrival location should not be the same";
+"calendar_validation_departure_before_arrival" = "Your departure time must be after your arrival time for tlhe same location";
+"calendar_validation_time_missing" = "Please ensure all departure and arrival times are completed";
+"calendar_validation_location1_arrival_required" = "Travel detected, arrival time is required for %@";
+"calendar_validation_in_transit_require_three_locations_filled" = "We have detected that you travelled to %@ tomorrow (%@). Please update your travel itinerary to reflect your travel before continuing.";
+"calendar_validation_in_transit_require_three_locations_filled_maxed" = "We have detected that you travelled from %@ to (%@). The itinerary you entered for %@ needs to be updated before continuing.";
+"calendar_validation_title" = "Information";
+"calendar_third_location_autofill_message" = "We have detected that you travelled to %@ tomorrow (%@). Please add your travel details.";
+"calendar_cancel_fix_message" = "%@ contains a travel conflict. Do you wish to cancel fixing this conflict and address it at a later time?";
+"calendar_cancel_fix_message_on_save" = "%@ contains a travel conflict. You will not be able to save your current details until this is fixed.";
+/*
+ Calendar Add In Transit Tomorrow Screen (1)
+ */
+
+"calendar_validation_in_transit_required" = "We found that tomorrow (%@) you traveled to %@. Please enter your travel details from %@ to %@.";
+"calendar_validate_in_transit_automated_updated_text" = "Your travel to %@ on %@ will automatically be added.";
+
+
+/*
+ Calendar Add In Transit Yesterday Screen (1)
+ */
+"calendar_validate_in_transit_yesterday_message_text" = "We detected that you have traveled from %@ to %@. Please let us know when you arrived in %@.";
+"calendar_validate_in_transit_yesterday_footer_text" = "Your travel for (%@) and (%@) will automatically be updated to resolve any issues.";
+"calendar_yesterday_departure_location_label" = "Departed from";
+"calendar_yesterday_not_selected_message" = "Please ensure both the arrival and departure times have been selected.";
+"calendar_yesterday_departure_before_arrival" = "Please verify your selected times. Your arrival time cannot be earlier than your departure time.";
+
+/*
+ Calendar Status Screen (1)
+ */
+
+"calendar_status_title_label" = "Calendar overview";
+
+/*
+ Calendar Speed Fill Overlay (1)
+ */
+"calendar_speed_fill_overlay_instructions" = "Create a quick calendar entry for these dates?";
+"calendar_speed_fill_overlay_from" = "from";
+"calendar_speed_fill_overlay_to" = "to";
+"calendar_speed_fill_overlay_start_instructions" = "Tap on the calendar to select your start and end dates";
+
+/*
+ Calendar Speed Fill Screen (1)
+ */
+"calendar_speed_fill_title_label" = "Speed fill";
+"calendar_speed_fill_travel_label" = "Travelled to";
+"calendar_speed_fill_start_date_label" = "Started travel on";
+"calendar_speed_fill_end_date_label" = "Ended travel on";
+"calendar_speed_fill_schedule_default_label" = "My work schedule";
+"calendar_speed_fill_days_overwrite" = "The date range you have selected will update %i days you have already entered. Do you wish to continue?";
+"calendar_speed_fill_covid_title" = "COVID-19 Impacted";
+"calendar_speed_fill_covid_desc" = "Your schedule for these day(s) was impacted by COVID-19";
+
+/*
+ Calendar Speed Fill Schedule Screen (1)
+ */
+"calendar_speed_fill_schedule_default_workday_label" = "My Work Schedule";
+"calendar_speed_fill_schedule_default_workday_desc_label" = "(My default work day schedule)";
+"calendar_speed_fill_schedule_default_workday_list_label" = "Workday: %@";
+"calendar_speed_fill_schedule_default_offday_list_label" = "Off Day: %@";
+"calendar_speed_fill_schedule_preference_update_label" = "Update your schedule preferences";
+
+/*
+ Calendar Location Picker Screen (1)
+ */
+
+"calendar_location_picker_title_label" = "Select location";
+"calendar_location_picker_empty_state_title" = "No locations found";
+"calendar_location_picker_empty_state_search_descr" = "No locations found matching your search";
+"calendar_location_picker_empty_state_descr" = "No locations available for your selection";
+"calendar_location_picker_recents_label" = "Recent";
+"calendar_location_picker_all_locations_label" = "Locations";
+
+/*
+ Calendar Time Picker Screen (1)
+ */
+
+"calendar_time_picker_title_arrival_time" = "Arrival time";
+"calendar_time_picker_title_departure_time" = "Departure time";
+"calendar_time_picker_location_label" = "Time in %@";
+
+/*
+ Calendar Schedule Screen
+ */
+"calendar_schedule_pop_up_title" = "Schedule";
+"calendar_schedule_pop_up_workday_title" = "Workday";
+"calendar_schedule_pop_up_workday_desc" = "(I worked all day)";
+"calendar_schedule_pop_up_off_day_title" = "Off Day";
+"calendar_schedule_pop_up_off_day_desc" = "(I did not work today)";
+"calendar_schedule_pop_up_half_day_work_title" = "Half Day";
+"calendar_schedule_pop_up_half_day_work_desc" = "(I worked in the morning and was off in the afternoon)";
+"calendar_schedule_pop_up_half_day_off_title" = "Half Day";
+"calendar_schedule_pop_up_half_day_off_desc" = "(I was off in the morning and worked in the afternoon)";
+
+/*
+ Calendar Notes Screen
+ */
+"calendar_note_title" = "Add Note";
+"calendar_note_hint" = "Add optional note";
+
+
+/*
+ Calendar COVID-19 Screen
+ */
+"calendar_covid_learn_more_title" = "COVID-19";
+"calendar_covid_learn_more_details" = "What is an impacted by COVID-19 day? You should select yes if your work schedule or location was impacted by COVID-19.\n\nFor example, you ended up working from home in a different state or country than where your office normally would be located.  Or, if you were on an assignment, you may have worked from your home location during the COVID-19 crisis versus remaining in your host location.  Or, if you were furloughed on the selected day(s).  You do not need to choose this option for items such as a cancelled vacation/holiday.";
+
+/*
+ Calendar Work Week Defaults Screen
+ */
+"calendar_work_week_defaults_title" = "Work Week Defaults";
+"calendar_work_week_defaults_desc" = "You may change the default workdays to reflect your typical work week schedule. The days selected will default to \"workday\" when you use the speedfill shortcut to completing your calendar.";
+
+/*
+Calendar in transit detection workflow
+*/
+"calendar_intransit_detection_msg" = "Travel detected. The last location you visited yesterday (%@) was %@. Please update your %@ travel details.";
+"calendar_intransit_move_details_msg" = "I traveled from %@ to %@.";
+"calendar_intransit_today_button_text" = "I traveled today %@";
+"calendar_intransit_yesterday_button_text" = "I traveled yesterday %@";
+"calendar_intransit_cancel_on_day_change" = "Do you wish to cancel fixing this conflict and revert back your travel selection?";
+
+/*
+ Login Screen
+ */
+
+"login_window_title" = "Welcome";
+"login_button" = "Press to Login";
+"login_enter_your_username" = "Enter your username";
+"login_enter_your_password" = "Enter your password";
+"login_intro_text" = "Enter your credentials to begin";
+"login_switch_alert" = "Would you like to login using your corporate credentials?";
+
+"login_corporate_loging" = "Corporate Login";
+"login_using" = "Login using:";
+"login_sso_spinner" = "Contacting your corporate identity provider";
+
+"login_using_mme" = "Login using your credentials";
+"login_select" = "Select how you would like to login";
+"login_forgotten_password" = "Need help logging in?";
+
+"incompleted_login_information" = "Please enter your username and password";
+"incorrect_login_information" = "Incorrect username or password provided.";
+"no_network_available" = "Unable to find a network connection. Please check your connection and try again.";
+"login_spinner_message" = "Verifying Login";
+"general_login_error" = "Unable to login at the moment. Please try again later.";
+"account_is_locked" = "Your account is currently locked. Please contact Vialto Partners Support to unlock your account.";
+"account_not_fully_setup" = "Please login to the myMobility website to complete setting up your account.";
+
+"need_to_sign_consents" = "Please visit mymobility.vialto.com to complete the necessary application consents.";
+"touch_id_message" = "For your security myMobility has been locked. Please use Touch ID or enter a Passcode to continue.";
+"face_id_message" = "For your security myMobility has been locked. Please use Face ID or enter a Passcode to continue.";
+
+"login_help_text_label" = "Learn more about myMobility";
+"login_user_switched" = "We detected you have switched accounts. Vialto Partners myMobility does not support using multiple accounts on a single device. Do you want to reset your account to use your new account?  Please note this will permanently remove documents in your Travel Folio.";
+"login_switch_user_button_title" = "Switch user";
+
+"login_2fa_selector_page_phone" = "Which mobile phone should we send an SMS message with the one-time access code to?";
+"login_2fa_selector_page_email" = "Is your mobile phone not registered or are you unable to receive SMS? We can also send the access code to an email listed below.";
+
+"login_2fa_verification_page_title" = "Login Verification";
+"login_2fa_verification_page_instructions" = "We will send you a one-time access code to complete your log in. From the list below, please select how you would like to receive the code.";
+"login_2fa_verification_page_help_title" = "I don't have access to the above ways to get one-time access code";
+
+"login_no_way_access_pin_code_subject" = "Vialto Partners: Two Step Authentication Help";
+"login_no_way_access_pin_code_body" = "I do not have access to either my email address or mobile phone number on file.  Could you please assist me with logging in using two step authentication.";
+"login_sending_pin_code" = "Sending...";
+"login_enter_pincode_window_title" = "Enter Code";
+"login_pin_code_instructions" = "For your security we have sent a one-time use access code to %@. Please enter this code and press Finish to complete your login.";
+"login_pin_code_remember" = "Remember me (you will not be required to enter an access code again for this device)";
+"login_pin_code_verify_button_title" = "Verify";
+"login_pin_locked" = "Invalid information provided. For your security you will be logged out.";
+"login_pin_code_invalid" = "Incorrect access code provided";
+"login_pin_code_reset_button" = "Resend code";
+"login_jailbreak_message" = "Your device configuration is not supported.  Please contact Vialto Partners Support for assistance.";
+
+"login_please_upgrade" = "Please visit the Apple App Store to upgrade myMobility before continuing.";
+
+/*
+ Logout Screen
+ */
+
+"logout_screen_title" = "Logout?";
+"logout_screen_detail" = "Would you like to logout of myMobility?";
+"logout_screen_forget_question" = "Request a one-time use access code on next login?";
+
+/*
+ Lockout Screen
+ */
+
+"lockout_touch_id_button_title" = "Use Touch ID to unlock";
+"lockout_face_id_button_title" = "Use Face ID to unlock";
+"lockout_section_title" = "myMobility is locked";
+"lockout_one_touch_title" = "One-touch log on";
+"lockout_instructions" = "Touch ID make accessing myMobility even faster.\n\nTap the unlock with Touch ID button below to unlock myMobility and get started.";
+"lockout_standard_login" = "Use Standard Login";
+
+/*
+Contacts Screen
+ */
+
+"pwc_support_timezone" = "24 / 7";
+"contacts_phone_label" = "Phone";
+"contacts_email_label" = "Email";
+"contacts_support_global_label" = "Global";
+"contacts_support_us_label" = "US";
+"contacts_support_uk_label" = "UK";
+
+"contact_screen_title" = "Vialto Partners Contacts";
+"pwc_support" = "Vialto App Support";
+"pwc_support_subtitle" = "Do you need help with myMobility or technical support?";
+
+"pwc_support_email" = "support@gms.vialto.com";
+"pwc_support_country_code" = "GLOBAL";
+"pwc_support_office" = "Vialto Partners App Support";
+
+"pwc_support_contact_desc" = "Contact Vialto Partners Support using the following";
+
+"pwc_support_us_toll_free" = "+1 888 673 4383";
+"pwc_support_uk_toll_free" = "+44 800 917 1747";
+"pwc_support_international" = "+1 408 817 8125";
+
+"contacts_email_subject" = "Message from myMobility Mobile";
+"contacts_email_footer" = "\n\n\n\nDetails for Vialto Partners:\nName: %@\nAssignee ID: %i\nContact Email: %@\n\n";
+
+"contacts_permission" = "We access your device's contact so that we can add the selected contact.";
+"contacts_msg_body" = "Add Vialto Partners Contacts to your address book";
+"contact_added" = "Contact has been added to your device's address book";
+"contact_add_error" = "Error adding a contact to your device's address book.  Please try again later.";
+"contact_add_request" = "Would you like to add %@ to your device's address book?";
+"contat_add_label" = "Add to contacts";
+
+"contacts_phone_format_with_extension" = "%@ Ext. %@";
+
+"COUNTRY_GLOBAL" = "Vialto Partners Global";
+"PWC_COUNTRY_UNKNOWN" = "Vialto";
+"contacts_static_image_title" = "What can we help with today?";
+
+
+/*
+ Contact Member
+ */
+
+"contact_member_title" = "Tax Help";
+"contact_member_message_place-holder" = "Add your message";
+"contact_member_info_already_attached" = "You already have a document attached. Do you want to remove the current document so you can attach another?";
+"contact_member_info_add_document" = "Add document";
+"contact_member_info_document_attached" = "Document attached";
+"contact_member_description" = "Complete the below to send a message to your Vialto contact %@";
+
+/*
+ Notification Screen
+ */
+
+"notifications_window_title" = "Messages";
+"notification_segment_inbox_title" = "Inbox";
+"notification_segment_archive_title" = "History";
+"notification_message_back_button_title" = "All Messages";
+"notification_cell_archive_title" = "Move to History";
+"notification_cell_move_to_inbox_title" = "Move to Inbox";
+"notification_cell_read_title" = "Mark Read";
+"notification_cell_unread_title" = "Mark Unread";
+"notification_empt_data_no_archived_messages_title" = "No Message History";
+"notification_empt_data_no_inbox_messages_title" = "No Messages";
+"notification_empt_data_no_archived_messages_description" = "You will find historical messages here.";
+"notification_empt_data_no_inbox_messages_description" = "When you get new messages you'll see them here.";
+"notification_empty_search_title" = "No messages found";
+"notification_empty_search_desc" = "No notifications found matching your search";
+"no_unread_notifications" = "No unread messages";
+"today_widget_view_more_notifications" = "View %@ more";
+"notification_pwc_file_shared_title" = "Vialto Partners has shared %@ file(s) with you";
+"notification_pwc_file_shared_body" = "Your Vialto Partners team has shared %@ file(s) with you. You can view these files at anytime under the Documents tab.";
+
+"notification_file_shared_button_title" = "View File(s)";
+"notification_digitalbriefing_shared_button_title" = "View Digital Briefing(s)";
+"notification_employer_file_shared_title" = "Your Employer has shared %@ file(s) with you";
+"notification_employer_file_shared_body" = "Your Employer has shared %@ file(s) with you. You can view these files at anytime under the Documents tab.";
+"notification_digitalbriefing_shared_title" = "You have %@ Digital Briefings";
+"notification_digitalbriefing_shared_body" = "You have %@ Digital Briefings awaiting your review. You can view these briefings at anytime under the Digital Briefings tab.";
+"notification_msg_message_marked_unread" = "Message marked as unread";
+"notification_msg_message_marked_read" = "Message marked as read";
+
+/*
+ File Selector Screen
+ */
+
+"file_selector_title" = "Add Pages";
+"file_selector_next_button_title" = "Next";
+"file_selector_instructions" = "Add another page:";
+"file_selector_camera_label" = "Take a Photo";
+"file_selector_gallery_label" = "From Photos";
+"file_camera_permission" = "We access your camera in order for you to use the document scanner";
+"file_photos_permission" = "We access your Photos in order for you to use the document scanner";
+"file_permission_msg_body" = "Scan & Share Documents with your Vialto Partners contacts";
+"file_edit_toast_message" = "To edit, tap on the above image";
+"file_selector_instructions_traveldoc" = "How would you like to add your travel document?";
+"file_max_pages_warning" = "The Document Scanner supports a maximum of %i pages.";
+"file_more_page_description" = "When you have added all of your pages press next to continue";
+
+/*
+ File Selector 2
+ */
+
+"file_meta_window_title" = "Additional Details";
+"file_meta_window_desc" = "We need a few details to help your Vialto Partners contact with the information you are providing.";
+"file_meta_country_desc" = "What Country does this relate to?";
+"file_meta_tax_year_desc" = "What Tax Year does this relate to?";
+"file_meta_year_relates_other" = "Other";
+"file_meta_country_relates_all" = "All";
+"file_meta_country_relates_other" = "Other";
+"file_meta_country_relates_none" = "None";
+"file_meta_practice_type_tax" = "Tax";
+"file_meta_practice_type_immigration" = "Immigration";
+"file_meta_missing_tax_year" = "Please select the related tax year";
+"file_meta_missing_country" = "Please select the related country";
+
+
+/*
+ File Selector 3
+ */
+
+"file_details_window_title" = "Add Comments";
+"file_details_instructions" = "Add a subject and comments to help your Vialto Partners contact to use this information.";
+"file_details_subject" = "Subject*";
+"file_details_comment" = "Comment";
+"file_details_share_label" = "Share with Vialto Partners";
+"file_details_missing_subject" = "Please enter a subject";
+"file_details_subject_defaults_relates_country" = "Relates to Country(s):";
+"file_details_subject_defaults_when" = "Share:";
+"file_details_image_missing" = "There was a problem with the image you selected. Please select another.";
+"file_details_uploading" = "Uploading...";
+"file_details_unknown_error" = "Unable to upload your document. Please try again later or contact your engagement team for assistance.";
+"file_meta_supporting_documentation" = "Supporting Documentation";
+"file_details_invalid_doc_selected" = "There was a problem with the document you selected. Please select another.";
+"file_details_error_detail" = "%@ Detail: %@";
+"file_upload_error_invalid_practice_type" = "Invalid or unsupported practice type selected.";
+"file_upload_error_invalid_year" = "Invalid file Year provided.";
+"file_upload_error_invalid_file_size" = "Invalid file: File size was exceeded.";
+"file_upload_error_invalid_file_type" = "Invalid file: Unsupported file type provided.";
+"file_upload_error_file_not_zipped" = "Invalid file: File was not zipped.";
+"file_upload_error_multiple_files_in_zip" = "Invalid file: Multiple files found in zip";
+"file_upload_error_no_subject" = "File Subject was not found.";
+"file_upload_error_no_subscription" = "Was not able to find Vialto Partners subscription for this practice type.";
+"file_upload_error_no_contact" = "Unable to find Vialto Partners Contact for this document.";
+
+/*
+ File Selector Travel Docs
+ */
+
+"travel_docs_add_window_title" = "Add Description";
+"travel_docs_subject" = "Description*";
+"travel_docs_instructions" = "Add a description and comments to your Travel Document";
+"travel_docs_comment" = "Comment";
+"travel_docs_save_label" = "Save";
+"travel_docs_missing_subject" = "Please add a description to continue";
+
+/*
+ About Screen
+ */
+
+"about_screen_title" = "About myMobility";
+"about_screen_app_desc" = "Vialto Partners myMobility allows you to securely collaborate with Vialto Partners on all of your Tax, Social Security, and Immigration needs.  MyMobility gives you real-time status updates, messages, and collaborative tools to empower the Global Mobility process all from your favorite iOS mobile device.\n\nTo use this app you must have received an invitation from your Vialto Partners team. If you have misplaced your myMobility invitation please contact support@gms.vialto.com.\n\nIf you have forgotten your Vialto Partners myMobility login information please visit mymobility.vialto.com or press the button below to request a temporary PIN code.";
+"about_screen_mymobility_button_title" = "Visit myMobility";
+"about_screen_privacy_text" = "For details regarding the Vialto Partners Privacy Policy please press the below button for details.";
+"about_screen_privacy_button" = "Privacy Policy";
+"about_screen_security_button" = "Security";
+"about_app_version" = "Version: %@ Build: %@";
+"about_db_version" = "Data Version: %@";
+"about_copyright_footer" = "© 2022 Vialto Partners. All rights reserved.  Please see vialto.com/copyright for further details.";
+"about_version_details" = "Version Details:";
+
+/*
+ Briefings Screen
+ */
+
+"briefing_watch_network_required" = "A network connection is required start watching digital briefings.  Please check your network connection and try again.";
+"briefing_confirm_network_required" = "A network connection is required confirm completion of your digital briefing.  Please check your network connection and try again.";
+"briefings_screen_title" = "Digital Briefings";
+"briefings_walk_thru_title" = "Learn more?";
+"briefings_walk_thru_detail" = "There are no digitial briefings that require your attention at this time. However we have selected a number of introductory videos that would be of interest to you.";
+"briefings_walk_thru_button_title" = "View Overview";
+"briefings_marketing_title" = "myMobility Overview";
+"briefings_marketing_app_blurb" = "We embarked on a journey to make mobility easy - welcome to the myMobility experience.  We know your time is valuable. Our goal is to make the process efficient for you.  MyMobility places everything at your fingertips.  Collaborate with Vialto Partners, get real-time updates, and share documents while on the go.  It's all designed to save you time, so you can get back to what matters to you most.  We invite you to watch a brief video highlighting the capabilities of the myMobility app.";
+"briefings_marketing_web_blurb" = "The Vialto Partners myMobility website is your single destination for all of your Vialto Partners Global Mobility Services.\n\nVialto Partners myMobility automatically organizes your work and travel documents and showing you what you need to know, when you need to know it. Whether Vialto Partners is providing Tax, Immigration or other global mobility services our global questionnaire's smart logic will save you time, by speeding up the data collection process.\n\nVialto Partners myMobility protects your sensitive data and provides you a secure way to share your documents and other information with your Vialto Partners team.";
+"briefing_download_status" = "Downloading...";
+"briefing_download_status_completed" = "This video is currently saved to your device.";
+"briefing_remove_details" = "If you are finished with this briefing video you can remove the video from your device.";
+"briefing_removal_alert" = "Remove this video from your device? You will be able to download it again later.";
+"briefing_download_alert" = "Download this video for offline viewing?";
+"briefing_no_network" = "No Network Connection.\nPlease try again later.";
+"briefing_playlist_window_title" = "Playlist";
+"briefing_playlist_duration" = "Duration %@";
+"briefing_cell_all" = "Briefing not started";
+"briefing_cell_some" = "Briefing in progress (%i of %i)";
+"briefing_cell_done" = "Briefing watched";
+"briefing_intro_web" = "myMobility Web";
+"briefing_intro_app" = "myMobility Mobile";
+"briefing_intro_title" = "Introduction videos";
+"briefings_no_network" = "Network Unavailable";
+"briefing_remaining_playlist_time" = "Remaining: %@";
+"briefing_confirmation_pending_button_title" = "Confirmation necessary";
+"briefing_confirmation_completed_button_title" = "Confirmation completed";
+"briefing_confirmation_card_completed_title" = "Briefing confirmation completed";
+"briefing_confirmation_card_not_completed_title" = "Briefing Confirmation Required";
+
+"briefing_confirmation_pending_row_text" = "After you have reviewed all of the briefing chapters and materials please provide confirmation to complete your briefing.";
+"briefing_confirmation_completed_row_text" = "Thank you for completing your briefing";
+"briefing_view_briefing_row_label" = "View Briefing";
+"briefing_view_document_row_label" = "View Documents";
+"briefing_home_action_description" = "Your %@ is awaiting confirmation that you have reviewed all of the briefing chapters and materials please provide confirmation to complete your briefing.";
+
+"briefing_playlist_confirmation_pending" = "Please review all briefing content and confirm your understanding.";
+"briefing_playlist_confirmation_completed" = "Thank you for confirming your understanding of the briefing content.";
+
+/*
+ Briefing Completion Row
+ */
+
+"briefing_completion_cell_title" = "Confirmation";
+"briefing_completion_cell_desc_not_completed" = "To finish this briefing please provide your confirmation.";
+"briefing_completion_cell_desc_completed" = "Thank you for confirming you have finished this briefing";
+
+/*
+ Briefing Completion Screen
+ */
+"briefing_confirm_title" = "Congratulations!";
+"briefing_confirm_desc" = "Thank you for taking the %@ briefing.  To complete this briefing please provide the following confirmation.";
+"briefing_confirm_attest" = "I confirm that I have taken the %@ briefing in full.";
+"briefing_confirm_confirm_button" = "I agree";
+
+/*
+ File Cabinet Screen
+ */
+
+"fc_window_title" = "Documents";
+"fc_content_window_title_tax" = "Tax Documents";
+"fc_content_window_title_immigration" = "Immigration";
+"fc_content_window_title_briefing" = "Briefings";
+"fc_content_window_title_from_pwc" = "From Vialto Partners";
+"fc_content_window_title_consents" = "Consents";
+"fc_content_window_title_from_employer" = "From Employer";
+"fc_empty_state_title" = "Your mobility documents";
+"fc_empty_state_desc" = "When Vialto Partners or your employer shares a document, you will see it here. At anytime you can share documents to Vialto Partners using the + button, then upload or scan your documents.";
+
+"fc_folder_name_consents" = "Consents";
+"fc_folder_name_pwc" = "Documents from Vialto Partners";
+"fc_folder_name_tax" = "My Tax Uploads";
+"fc_folder_name_visa" = "My Immigration Uploads";
+"fc_folder_name_briefing" = "My Briefing Documents";
+"fc_folder_name_employer" = "Documents From Employer";
+"fc_last_updated" = "Last updated on";
+"fc_last_updated_today" = "Last updated today";
+"fc_file_count" = "Documents: %@";
+"fc_file_and_year_count" = "Documents: %@, Years: %@";
+"fc_file_for_year" = "%@ Documents";
+"fc_file_uploaded_on" = "Uploaded on %@";
+"fc_file_updated_today" = "Updated today";
+"fc_file_other_country" = "Relates to Other Country";
+"fc_file_other_year" = "Relates to Other Year";
+"fc_unable_to_open" = "Sorry we are unable to open this file. Please visit the website or try to download the file again.";
+"fc_swipe_archive" = "Archive, download again later";
+"fc_engagement_lock_message" = "Please enter the password your engagement team provided for this document.";
+"fc_self_lock_message" = "Please enter the password you created when uploading this document.";
+"fc_unknown_locked_source_model" = "Please enter the password for this document.";
+"fc_employer_locked_message" = "Please enter the password provided by your employer or mobility provider.";
+"fc_invalid_file_format" = "We are sorry myMobility does not support viewing this file format";
+"fc_unknown_error" = "myMobility has encountered a problem downloading this file. Please try again later.";
+"fc_incorrect_password" = "Sorry we are unable to open this file with the password provided. Please try again.";
+"fc_big_file_warning" = "The file you have selected to download is %@. Depending on your network connect this could take sometime to download.  Would you like to continue?";
+"fc_restricted_file" = "Before you can download this file you must first sign your consents on the myMobility website.";
+
+"fc_file_size_to_large" = "You have selected a file greater than the limit allowed. Please select a file less than 24MB or upload using the website.";
+"fc_invalid_file_type" = "You have selected an unsupported file type. Please select a PDF file to continue.";
+"fc_cloud_provider_menu_title" = "Select a document from";
+"fc_download_button_title" = "Get";
+"fc_view_button_title" = "View";
+
+"fc_file_info_name" = "Name:";
+"fc_file_info_added" = "Added:";
+"fc_file_info_country" = "Country:";
+"fc_file_info_service" = "Service:";
+"fc_file_info_tax_year" = "Tax Year:";
+"fc_file_info_subject" = "Subject:";
+"fc_file_info_message" = "Message:";
+"fc_file_info_message_employer_filder" = "Category:";
+"fc_file_info_assignment" = "Assignment:";
+
+"fc_employer_general_folder" = "General";
+"fc_employer_title_prefix" = "Documents from %@";
+"fc_employer_assignment_label" = "Assignment: %@";
+"fc_employer_general_header_label" = "General documents";
+
+"fc_keyboard_picker_scanner_title" = "Scan Document";
+"fc_keyboard_picker_scanner_desc" = "Scan a document to share with Vialto Partners";
+"fc_keyboard_picker_photo_title" = "Upload Photo";
+"fc_keyboard_picker_scanner_desc" = "Convert a photo to a document to share with Vialto Partners";
+"fc_keyboard_picker_upload_file_title" = "Upload File";
+"fc_keyboard_picker_upload_file_desc" = "Upload a file from your device using iCloud, Google Drive, etc";
+
+"fc_document_type_teq" = "Tax Equalization";
+"fc_document_type_tax_return" = "Tax Return";
+"fc_document_type_other" = "Other";
+
+/*
+ PDF Viewer
+ */
+
+"pdf_page" = "Page: ";
+"pdf_info_title" = "Document Details";
+"pdf_search_empty_title" = "Search";
+"pdf_Search_empty_description" = "Quickly search within your PDF document";
+"pdf_search_empty_no_results" = "Sorry but no matching results were found.";
+"pdf_page_selector_title" = "Jump to page";
+
+
+/*
+Gallery
+*/
+"gallery_no_image_warning" = "Unable to load image";
+
+/*
+ Hover Button Labels
+ */
+
+"hb_cell_photo" = "Upload Photo";
+"hb_cell_file" = "Upload File";
+"hb_cell_scan" = "Scan Document";
+"hb_cell_note" = "Secure Note";
+"hb_cell_travel_photo" = "Add Photo";
+
+/*
+ ESignature Screen
+ */
+
+"esign_opt_out_spinner" = "Notifying Vialto Partners";
+"esign_milestone_review" = "Review";
+"esign_milestone_consent" = "Consent";
+"esign_milestone_signature" = "Sign";
+"esign_milestone_authorize" = "Authorize";
+"esign_milestone_verify" = "Verify";
+
+"esign_consent_intro_title" = "Tax Return E-Sign";
+"esign_consent_intro" = "Welcome to myMobility E-Sign";
+"esign_consent_view_tax_return" = "View Tax Return";
+"esign_intro_documents" = "%i Document(s)";
+
+"esign_intro_instructions" = "After reviewing your tax return, you can authorize Vialto Partners to E-File your tax return by providing your electronic signature in just a few steps.\n\nNeed more time to review your return? Press \"Cancel\" to exit the consent process and come back at any time.";
+
+"esign_spouse_invite_title" = "Invite Spouse";
+
+"esign_authorize_consent_title" = "Authorize Consent";
+"esign_use_signature" = "Use Signature";
+
+"esign_consent_i_agree" = "I Agree";
+"esign_consent_i_disgree" = "I Do Not Agree";
+
+"esign_add_signature" = "Add Signature";
+"esign_authorize" = "Authorize Vialto Partners";
+
+"esign_authorized_title" = "Authorized";
+"esign_authorized_header_title" = "Congratulations!";
+"esign_authorized_instructions" = "You’ve successfully completed the myMobility E-Sign process by providing your electronic signature. We will proceed to file your tax return(s). Please review the instructions in your tax return file for any additional requirements.\n\nIf you have any questions, please reach out to your Vialto Partners Contact.";
+
+"esign_authorized_instructions_joint" = "You’ve successfully completed the myMobility E-Sign process by providing your electronic signature.\n\nYour spouse has received an invitation to complete the myMobility E-Sign process. Once your spouse has completed the E-Sign consent process, Vialto Partners will file your tax return(s). Please review the instructions in your tax return file for any additional requirements.\n\nIf you have any questions, please reach out to your Vialto Partners Contact.";
+
+"esign_manual_title" = "Confirmation";
+"esign_manual_continue" = "Do not E-File";
+"esign_manual_instructions" = "By not consenting you will not be able to continue the E-Sign process which may result in additional steps to electronically file your tax return(s).";
+
+"esign_manual_instructions_us" = "By manually consenting you will not be able to continue the E-Sign process and may result in additional steps to electronically file your tax return(s).";
+
+"esign_consent_instruct_1" = "I agree to the E-File Consent and Authorization";
+"esign_consent_instruct_2" = "Add a signature to continue";
+"esign_consent_instruct_3" = "Approve signature and authorize E-File";
+"esign_consent_instruct_4" = "Invite your spouse and complete the process";
+
+"esign_network_required" = "A network connection is required to E-Sign your Tax Return.  Please check your network connection and try again.";
+
+"esign_unable_load_template" = "Unable to load ESign consent. Please synchronize the application and try again.";
+"esign_intro_confirmation" ="I have reviewed my tax return(s)";
+"esign_opt_out_warning" = "If you wish to proceed, your Vialto Partners team will contact you with next steps. In the meantime please review your tax return package for details. Do you wish to continue?";
+
+
+"esign_us_intro_consent_title" = "Consent Introduction";
+"esign_us_intro_consent_confirm_title" = "Next Steps";
+"esign_us_intro_consent_confirm_desc" = "I understand that by agreeing to electronically consent to the E-Filing of my US tax returns, I am agreeing to have personal information, including my name, address, date of birth and US Social Security number utilized to verify my identity and allow me to affix an electronic signature.";
+
+"esign_id_verify_title" = "Verify Your Identity";
+"esign_id_verify_dob" = "Date of Birth";
+"esign_id_verify_dob_placeholder" = "Required - Date of Birth";
+"esign_id_verify_ssn" = "Social Security Number or Individual Taxpayer Identification Number";
+"esign_id_verify_ssn_placeholder" = "Required - Social Security Number";
+"esign_id_verify_address_section_title" = "Last Used US Address";
+"esign_id_verify_switch_label" = "I have a US address (including home, temporary housing, or corporate address)";
+"esign_id_verify_address" = "Address";
+"esign_id_verify_address_placeholder" = "Required - Address";
+"esign_id_verify_city" = "City";
+"esign_id_verify_city_placeholder" = "Required - City";
+"esign_id_verify_state" = "State";
+"esign_id_verify_state_placeholder" = "Required - State";
+"esign_id_verify_zip" = "Zip Code";
+"esign_id_verify_zip_placeholder" = "Required - Zip Code";
+"esign_id_verify_missing" = "Please complete the required fields before continuing.";
+"esign_id_verify_state_title" = "Select State";
+"esign_id_verfy_instructions" = "The taxing authorities require that we verify your identity using a series of security questions in order for your consent to be accepted. To begin the process, please provide the information below.\n\nWhen completed, press \"Next\" to proceed to the security questions.";
+
+"esign_id_personal_section" = "Personal Information";
+"esign_doc_review_title" = "View Tax Returns";
+"esign_id_select_dob_title" = "Date of Birth";
+
+"esign_questionnaire_title" = "Security Questions";
+"esign_questionnaire_instructions" = "Please answer the following security questions in the time allotted.";
+"esign_questionnaire_question_count" = "Question %i of %i";
+"esign_questionnaire_go_to_next" = "Go to next question";
+"esign_questionnaire_time_remaining_prefix" = "Time Remaining: %@";
+
+"esign_retry_title" = "Identity Failure";
+"esign_retry_section_tile" = "Verification Failure";
+"esign_retry_description" = "Your identity was unable to be verified. You may start over and attempt again. You can attempt up to 4 times in total. If you would like to retry, please press \"Retry Verification\".\n\nIf you would prefer to send in paper copies of your consent form instead. Please tap \"Manually Consent\" to learn more.";
+
+"esign_failure_title" = "Identity Failure";
+"esign_failure_section_tile" = "Verification Failure";
+"esign_failure_description" = "Your identity was unable to be verified. To help protect your sensitive information, you will need to sign paper copies of the E-File consent forms to have your return E-Filed with the appropriate taxing authorities.";
+
+"esign_failure_warning" = "Please follow the instructions provided with the PDF copy of your tax return for manually signing and returning the E-File consent documents.";
+
+"esign_manual_consent_button" = "Manually Consent";
+"esign_retry_verification_button" = "Retry Verification";
+"esign_electronically_consent_button" = "Electronically Consent";
+
+"esign_spouse_invite_instructions" = "Before we can electronically file you and your spouse's tax return, we will need your spouse to sign the consent forms. Please invite your spouse below to complete the consent form electronically.";
+"esign_spouse_invite_title" = "Invite Spouse";
+"esign_spouse_email_placeholder" = "Spouse Email Address";
+
+"esign_kba_finish" = "Proceed to Signature";
+"esign_invite_spouse_button" = "Invite Spouse";
+"esign_us_intro_consent_title" = "E-File Consent Introduction";
+
+"esign_us_confirm_bullet_1" = "1.";
+"esign_us_confirm_bullet_2" = "2.";
+"esign_us_confirm_bullet_3" = "3.";
+"esign_us_confirm_bullet_4" = "4.";
+"esign_us_confirm_bullet_5" = "5.";
+
+"esign_us_confirm_statement_intr" = "You will be guided through the steps to authorize Vialto Partners.";
+"esign_us_confirm_statement_1" = "Confirm your personal information";
+"esign_us_confirm_statement_2" = "Answer a series of timed security questions designed to protect your identity";
+"esign_us_confirm_statement_3" = "Consent and add your digital signature";
+"esign_us_confirm_statement_4" = "Authorize Vialto Partners to E-File your tax return(s)";
+"esign_us_confirm_statement_5" = "Invite your spouse to provide E-File consent";
+
+"esign_consent_intro_manual_consent_title" = "Tax Return Consent";
+"esign_consent_intro_manual_consent" = "Tax Return Manual Consent";
+"esign_intro_manual_consent_instructions" = "Welcome to the myMobility Tax Return consent process. After reviewing your tax return, you can complete the tax return filing process by downloading your tax return and following the steps in the enclosed file.";
+
+"esign_restricted_file" = "Before starting the E-Sign process, you first must sign your consents on the myMobility website.";
+
+/*
+ Settings Screen
+ */
+
+"settings_window_title" = "Settings";
+"settings_logout_button_title" = "Logout";
+"settings_about_screen_link" = "About";
+"settings_support_screen_link" = "Support";
+"settings_travel_docs_settings"= "Travel Folio";
+"settings_default_sync_text" = "Tap to Synchronize";
+"settings_sync_statement" = "Last synchronized:";
+"settings_mycalendar_download" = "Download Vialto Partners myCalendar";
+"settings_travel_folio_security" = "Travel Folio Security";
+"settings_play_intro" = "Introduction";
+"settings_advanced_options" = "Advanced Options";
+"settings_touch_id_label" = "Use Touch ID to Login";
+"settings_calendar_settings" = "Calendar Settings";
+"settings_calendar_section_config" = "Settings";
+"settings_calendar_section_advanced" = "Advanced";
+"setting_calendar_work_day_defaults" = "Work Week Preferences";
+"setting_calendar_work_day_defaults_subtitle" = "Change your workdays to match your schedule";
+"setings_calendar_about_autofill" = "About Autofill";
+"setings_calendar_about_autofill_subtitle" = "Learn more about calendar autofill";
+"settings_calendar_restore_from_online" = "Restore using online calendar";
+"settings_calendar_restore_from_online_subtitle" = "Restore your mobile calendar from online";
+"settings_calendar_push_from_local" = "Post complete mobile calendar";
+"settings_calendar_push_from_local_subtitle" = "Update online calendar with all mobile information";
+
+"settings_calendar_header_text" = "The details entered in the travel calendar will be used by all countries in which Vialto Partners is authorized to provide global mobility services.  The calendar setting options allow you to tailor your calendar experience to best capture your travel calendar details accurately.";
+"settings_calendar_reset_local_warning" = "This will merge all of your mobile data into the online calendar.  Any changes you have made to your online calendar will be overwritten with the information from your mobile. Do you want to continue?";
+"settings_calendar_sync_msg" = "Please synchronize to ensure your online information is updated";
+"settings_calendar_reset_all_msg" = "This will reset your mobile calendar with your online calendar data. Any data you have not synchronized with the online calendar will be lost. After the reset is completed you will be asked to login again. Do you want to continue?";
+
+/*
+ Advanced Settings Screen
+ */
+
+"adv_settings_window_title" = "Advanced Settings";
+"adv_settings_window_backbutton" = "Settings";
+"adv_settings_reset_title" = "App Reset";
+"adv_settings_desc" = "To reset your myMobility app back to factory settings please press the button below.  IMPORTANT: this will remove all information stored within the app and download new information from your Vialto Partners online account.\n\nIf you have any questions please contact Support (via the Settings screen) before using this feature.";
+"adv_settings_button_title" = "Reset App";
+"adv_settings_reset_message_title" = "Warning";
+"adv_settings_reset_message" = "Resetting your app will replace all of your information with that of your Vialto Partners online account. Do you want to continue?";
+
+/*
+ Status Screen
+ */
+
+"status_briefing_scheduler_tax_standard_title" = "Tax Consultation";
+"status_briefing_scheduler_tax_joint_title" = "Joint Tax Consultation";
+"status_briefing_scheduler_immigration_standard_title" = "Immigration Consultation";
+"status_briefing_scheduler_immigration_joint_title" = "Joint Immigration Consultation";
+
+"status_window_title" = "Status";
+"status_empty_wr_active_title" = "No activity yet";
+"status_empty_wr_active_description" = "You have no work in process by Vialto Partners at this time.";
+"status_empty_wr_history_title" = "No records yet";
+"status_empty_wr_history_description" = "When Vialto Partners completes work for you, it will automatically be moved to this section.";
+
+"status_current_status_label" = "Current Status:";
+"status_estimate_complete_label" = "Estimated Completion:";
+"status_completed_on_label" = "Completed on:";
+
+"status_estimate_delivery_label" = "Estimated Delivery:";
+"status_delivery_on_label" = "Delivered on:";
+
+"status_questionnaire_reminder_tax_title" = "Questionnaire Available";
+"status_questionnaire_reminder_tax_calendar_title" = "Reminder: Complete your %@ %@ tax questionnaire by %@";
+"status_questionnaire_reminder_tax_desc" = "Your %@ tax questionnaire is available. Please visit mymobility.vialto.com to complete your questionnaire by %@.";
+"status_questionnaire_reminder_immigration_title" = "Questionnaire Available";
+"status_questionnaire_reminder_immigration_desc" = "Your %@ immigration questionnaire is available. Please visit mymobility.vialto.com to complete your questionnaire by %@.";
+"status_questionnaire_reminder_immigration_calendar_title" = "Reminder: Complete your %@ %@ immigration questionnaire by %@";
+
+"status_immigration_service" = "Immigration Service";
+
+"fba" = "Foreign Bank Account";
+"rrsp" = "RRSP";
+"supplement" = "Supplement";
+"missing_info_detail_label" = "Comments:";
+"missing_info_detail_text" = "Please provide additional information";
+"missing_info_from_employer" = "Pending information from your employer";
+"missing_info_from_pwc" = "Pending information from your Vialto Partners contact";
+
+"tax_status_tile_title" = "Tax Return";
+"tax_status_efile_title" = "Tax Return";
+
+"tax_status_summary_title" = "Tax Return Summary";
+"tax_status_summary_description" = "Your %i Tax return summary is ready for your review. Here you can view your tax return, gain insights on what is impacting your results, and complete actions associated with your tax return.";
+"tax_status_summary_button" = "View My Tax Return Summary";
+
+"action_esign_title" = "Tax Return E-Sign";
+"action_esign_desc" = "Your tax return is ready for review. Once you complete the E-Sign process, Vialto Partners can submit your tax return(s) eligible for E-File.";
+"action_esign_continue_button" = "Get started";
+
+"tax_status_subtitle_questionnaire_due" = "Questionnaire due";
+"tax_status_subtitle_questionnaire_pending" = "Questionnaire available";
+"tax_status_subtitle_questionnaire_started" = "Questionnaire started";
+"tax_status_subtitle_in_process" = "In process";
+"status_subtitle_missing_information" = "Missing Information";
+"status_subtitle_missing_information_immigration" = "Required Information";
+
+"tax_status_subtitle_questionnaire_submitted" = "Information Submitted";
+"tax_status_subtitle_completed" = "Delivered";
+"tax_status_subtitle_deliveried" = "Tax Return Available";
+
+"tax_current_status_title_questionnaire_due" = "Your assistance required";
+"tax_current_status_title_questionnaire_pending" = "Your Tax Questionnaire is ready";
+"tax_current_status_title_questionnaire_started" = "Awaiting tax questionnaire submission";
+"tax_current_status_title_in_process" = "Tax Return in process";
+"tax_current_status_title_missing_information" = "Attention Required";
+
+"tax_current_status_title_completed" = "Delivered";
+"tax_current_status_title_downloaded" = "Tax Return Completed";
+"tax_questionnaire_over_due" = "Your tax questionnaire is overdue. Please visit the myMobility website and complete your questionnaire as soon as possible.";
+"tax_status_subtitle_missing_information_more" = "Attention required: Missing Information";
+
+"tax_current_status_title_completed_more" = "Tax Return ready for download";
+
+"status_segment_inbox" = "Active";
+"status_segment_completed" = "Completed";
+"status_submitted_on" = "Submitted: %@";
+
+"status_detail_missing_info" = "Missing Information";
+"tax_return_milestone1_text" = "Information Submitted";
+
+"tax_return_milestone1_not_done_text" = "Questionnaire Available";
+"tax_return_milestone1_in_process_text" = "Questionnaire Started";
+"tax_return_milestone1_due_text" = "Questionnaire Due";
+"tax_return_milestone1_general_text" = "Questionnaire";
+
+"tax_return_milestone2_text" = "In Process";
+
+"tax_return_milestone3_text" = "Tax Return Delivered";
+"tax_return_milestone3_ready_to_download" = "Tax Return ready for download";
+
+"tax_return_milestone4_text" = "Completed";
+"tax_return_milestone4_inprocess_text" = "Finalizing services";
+"tax_return_milestone4_inprocess_done" = "Tax services completed";
+
+"tax_return_questionnaire_due_by" = "Your tax questionnaire is due by";
+"tax_return_questionnaire_over_due" = "Your %@ tax questionnaire is overdue";
+"summary_card_over_due" = "Your questionnaire is overdue";
+"summary_card_submit_by" = "Submit to Vialto Partners by";
+"summaary_card_due_by" = "Due by:";
+"tax_missing_info_cell_detail_text" = "To finish your tax return we need to gather some additional information from you.";
+"missing_info_title_detail" = "Missing Information Identified";
+"missing_info_click_text" = "View Missing Information";
+"missing_info_click_text_immigration" = "View Required Information";
+
+"visa_missing_info_cell_detail_text" = "To finish your immigration case we need to gather some additional information from you.";
+"visa_title_template" = "Immigration Service";
+"visa_current_status_title_questionnaire_pending" = "Questionnaire available";
+"visa_current_status_title_questionnaire_started" = "Questionnaire started";
+"visa_current_status_title_in_preparation" = "In Preparation";
+"visa_current_status_title_missing_information" = "Attention required";
+
+"visa_current_status_title_in_assessment" = "In assessment";
+"visa_current_status_title_completed" = "Issued to applicant";
+"visa_current_status_title_authorities" = "Submission to authorities";
+"visa_current_status_gather_info" = "Collecting information";
+"visa_current_status_title_questionnaire_due" = "Your assistance required";
+"visa_status_subtitle_missing_information_more" = "Attention required: missing information";
+
+"visa_return_milestone1_due_text" = "Questionnaire Due";
+"visa_questionnaire_due_by" = "Questionnaire is due by";
+"visa_return_milestone1_gather_info_text" = "Collecting information";
+"visa_return_milestone1_gather_info_done_text" = "Information collected";
+
+"visa_milestone2_text" = "In Assessment";
+"visa_milestone3_text" = "In Preparation";
+"visa_milestone4_text" = "Submission to Authorities";
+"visa_milestone5_text" = "Issue to Applicant";
+
+"visa_return_processing_text" = "In process";
+"visa_return_milestone1_questionnaire_pending" = "Questionnaire available";
+"visa_return_milestone1_questionnaire_in_process" = "Questionnaire in process";
+"visa_return_milestone1_questionnaire_submitted" = "Questionnaire submitted";
+"visa_not_completed_milestone" = "Issued";
+"visa_questionnaire_over_due" = "Your %@ immigration questionnaire is overdue";
+
+"visa_questionnaire_over_due_detail" = "Your immigration questionnaire is overdue. Please visit the myMobility website and complete your questionnaire as soon as possible.";
+
+"coc_title_template" = "Certificate of Coverage";
+"coc_status_milestone1" = "Collecting information";
+"coc_return_milestone2_text" = "In preparation";
+"coc_return_milestone3_text" = "Submitted to authorities";
+
+"coc_not_completed_milestone" = "Certificate issued";
+
+"coc_milestone4_label" = "Certificate issued";
+
+"coc_status_title_collect_info" = "Collecting information";
+"coc_status_title_in_preparation" = "In Preparation";
+"coc_status_title__authorities" = "Submission to authorities";
+"coc_status_title_completed" = "Certificate issued";
+
+"status_missing_info_card_pwc" = "We require additional information from Vialto Partners. You do not need to do anything – this message is for your information only.";
+"status_missing_info_card_client" = "We require additional information from your Employer. You do not need to do anything – this message is for your information only.";
+"status_missing_info_card_client_and_pwc" = "We require additional information from your Employer and Vialto Partners. You do not need to do anything – this message is for your information only.";
+"status_missing_info_card_title_pwc_missing_info" = "Vialto Partners missing information";
+"status_missing_info_card_title_employer_missing_info" = "Employer missing information";
+"status_missing_info_card_title_pwc_employer" = "Vialto Partners and Employer missing information";
+
+"status_scheduler_need_schedule_title" = "READY TO SCHEDULE";
+"status_scheduler_already_scheduled_title" = "BRIEFING SCHEDULED";
+"status_scheduler_schedule_button_title" = "Schedule Briefing";
+"status_scheduler_reschedule_button_title" = "Reschedule Briefing";
+"status_scheduler_cancel_briefing" = "Cancel Briefing";
+"status_scheduler_schedule_desc_text" = "Moving to another country can often change your %@ situation. Please schedule your %@ briefing for %@ by choosing an available time to discuss your circumstances.";
+"status_scheduler_reschedule_desc_text" = "You an reschedule your %@ briefing at anytime by clicking on the button below.";
+"status_scheduler_cancel_warning_message" = "Would you like to cancel your currently scheduled briefing appointment so that you may schedule another?";
+
+"status_digital_briefing_required_go_to_botton" = "View Briefing";
+
+"actions_file_teq_desc" = "Your %i %@ Tax Equalization is ready to download and review. After downloading your document will be available anytime under Documents.";
+"actions_file_tax_return_desc" = "Your %i %@ Tax Return is ready to download and review. After downloading your document will be available anytime under Documents.";
+
+"status_mi_emp_milestone2_label" = "Missing information identified";
+
+"status_questionnaire_overdue_milestone" = "Questionnaire overdue";
+"status_overdue_detail" = "Your questionnaire was due on: %@";
+
+"status_esign_available_milestone" = "E-Sign Available";
+"status_esign_signed_milestone" = "E-File In Process";
+"status_esign_signed_milestone_message" = "You've successfully E-Signed. Vialto Partners is in the process of filing your tax return(s) which are eligible for E-File.";
+"status_esign_action_text_signed" = "Get Started";
+"status_esign_action_text_manual_consent" = "Manually Consent";
+
+"status_esign_awaiting_spouse_milestone" = "Spouse E-Sign Pending";
+"status_esign_awaiting_spouse_milestone_message" = "Your spouse must complete the E-Sign consent process in order for Vialto Partners to E-File your tax return(s)";
+"status_esign_manual_consent_milestone" = "E-Sign Manually Consent";
+"status_esign_manual_consent_milestone_message" = "Provide manual consent to E-File your tax return(s).";
+
+"action_esign_manual_consent_milestone_message" = "Your consent is required to electronically file your tax return(s). Press Manually Consent to review your tax return(s) and complete the consent process.";
+
+
+"status_esign_complete_milestone" = "E-File Complete";
+"status_esign_complete_milestone_message" = "Your tax return(s) which can be E-Filed have been submitted. Please review your filing instructions to see if any further action is required.";
+"status_esign_action_text_completed" = "View Tax Return(s)";
+
+"status_briefing_scheduler_joint_calendar_title" = "Vialto Partners: %@ Joint %@ Briefing";
+"status_briefing_scheduler_standard_calendar_title" = "Vialto Partners: %@ %@ Briefing";
+
+"status_ar_briefing_title" = "Visualize your Journey";
+"status_ar_briefing_immigration_desc" = "Visualize your immigration journey through an Augmented Reality";
+"status_ar_briefing_button_title" = "Explore your Virtual Experience";
+
+/*
+ Briefing Scheduler
+ */
+
+"briefing_scheduler_network_required_schedule" = "A network connection is required to schedule a briefing.  Please check your network connection and try again.";
+"briefing_scheduler_window_title" = "Schedule Time";
+"briefing_scheduler_loading" = "Checking availability...";
+"briefing_scheduler_timezone_label" = "Time Zone: %@";
+"briefing_scheduler_schedule_button_title" = "Schedule";
+"briefing_scheduler_empty_state_scheduler" = "There are no times available for the selected date. Please contact your Vialto Partners Team for help scheduling.";
+"briefing_scheduler_booked_timeslot" = "Your %@ briefing is scheduled for this time";
+"briefing_scheduler_time_available" = "Time available";
+
+/*
+ Briefing Scheduler - Booking Window
+ */
+
+"booking_window_title" = "Schedule";
+"booking_schedule_header_intro" = "You are about to schedule a briefing on";
+"booking_meeting_method_label" = "Select a meeting method";
+"booking_your_office_address" = "Please provide your office address";
+"booking_pwc_office_address" = "Vialto Partners office address";
+"booking_phone_number_label" = "Please provide a phone number we can use to contact you prior to the briefing";
+"booking_phone_hint" = "Enter your phone number";
+"booking_phone_action_label" = "Please provide the phone number Vialto Partners should contact";
+
+"booking_method_at_my_office" = "At My Office";
+"booking_method_at_pwc_office" = "At Service Provider";
+"booking_method_by_phone" = "By Phone";
+"booking_method_other" = "Other";
+"booking_other_method_detail" = "Additional information will be provided by email";
+"booking_error_missing_office_address" = "Please provide your office address";
+"booking_error_missing_phone" = "Please provide your contact phone number";
+
+"booking_saving" = "Scheduling...";
+"booking_schedule_button" = "Add";
+"booking_save_button" = "Schedule";
+"calendar_permission" = "We access your device's calendar so that we can add your briefing appointment.";
+"calendar_msg_body" = "Add Briefing appointment to your calendar";
+"booking_contact_number_title" = "Your contact number:";
+"booking_calendar_entry_mixin" = "Your briefing will be conducted";
+"booking_success_add_to_calendar" = "Your briefing appointment has been added to your device's calendar";
+"booking_fail_add_to_calendar" = "We were unable to add your appointment to your device's calendar";
+
+/*
+ Briefing Scheduler - Confirmation Window
+ */
+
+"booking_confirmat_title" = "Confirmation";
+"booking_confirmation_sub_header_slug"  = "Your briefing details";
+"booking_error_message" = "Sorry we've encountered an error trying to create your briefing. Please try again later.";
+"booking_confirmation_header_joint_title" = "Your joint %@ briefing for %@ has been scheduled successfully!";
+"booking_confirmation_header_standard_title" = "Your %@ briefing for %@ has been scheduled successfully!";
+
+/*
+ Missing Information Screen
+ */
+
+"action_missing_info_card_title" = "Missing Information";
+"missing_info_window_title" = "Missing Information";
+"missing_info_upload_button_text" = "Upload Missing Information";
+"missing_info_uploaded" = "Your information has been successfully uploaded for your Vialto Partners Contact to review.  Once reviewed we will update the status for your missing information.";
+"missing_info_share_title" = "Provide Missing Information from";
+"missing_info_share_file" = "Upload File";
+"missing_info_share_scan" = "Scan Document";
+"missing_info_share_photo" = "Upload Photo";
+"missing_info_please_select" = "Please select at least one missing information item";
+
+"missing_info_detail_identified_on" = "Identified on: %@";
+"missing_info_detail_resolved_label" = "Resolve Now";
+"missing_info_detail_reminder_label" = " Add reminder";
+
+"missing_info_tab_pending_title" = "Pending";
+"missing_info_tab_resolved_title" = "Resolved";
+"missing_card_item_immigration_service" = "Immigration";
+"missing_card_item_tax_service" = "Tax Return";
+
+"home_mi_mixed_card_tax" = "You have %i missing item(s) pending your action and %i item(s) in Vialto Partners review.";
+"home_mi_mixed_card_immigration" = "You have %i requested item(s) pending your action and %i item(s) in Vialto Partners review.";
+
+"home_mi_assignee_only_card_tax" = "You have %i missing item(s) pending your action.";
+"home_mi_assignee_only_card_immigration" = "You have %i requested item(s) pending your action.";
+
+"home_mi_pwc_only_card_tax" = "You have %i missing item(s) in Vialto Partners review.";
+"home_mi_pwc_only_card_immigration" = "You have %i requested item(s) in Vialto Partners review.";
+
+"missing_info_status_pending_pwc" = "In Vialto Partners review";
+"missing_info_status_your_action" = "Your action is required";
+"missing_info_view_more_button" = "View details";
+"missing_info_details_title"  = "Missing item details";
+"missing_info_identified_on" = "Identified by Vialto Partners on %@";
+"missing_info_submitted_already" = "The information you provided is with Vialto Partners for review.";
+"missing_info_characters_remaining" = "%i remaining";
+"missing_info_characters_completed" = "Max sized reached";
+"missing_info_add_document" = "Add document";
+"missing_info_document_attached" = "Document attached";
+"missing_info_place-holder_comments" = "Add missing information details.";
+"missing_info_network_required" = "A network connection is required to resolve missing information requests.  Please check your network connection and try again.";
+
+"missing_info_already_attached" = "You aleady have a document attached. Do you want to remove the current document so you can attach another?";
+"missing_info_provide_response" = "Please provide a response to the missing item request.";
+"missing_info_instructions" = "Please provide information related to this missing item. Use the Camera or Photos icons to add supporting documents.";
+
+"missing_info_reminder_screen_title" = "Create Reminder";
+"missing_info_reminder_title" = "Title of Reminder";
+"missing_info_reminder_note_title" = "Notes";
+"missing_info_reminder_me_at" = "Reminder me at";
+"missing_info_reminder_title_place_holder" = "%@ missing item request from: %@";
+"missing_info_reminder_title_missing" = "Please enter a reminder title";
+"missing_info_reminder_already_scheduled" = "You have already scheduled a reminder for this missing item.";
+"reminder_permission" = "We access your device's reminders to add schedule your reminder";
+"reminder_msg_body" = "Add reminder to your device";
+"reminder_failure_message" = "Unable to create a reminder. Please check your device permissions.";
+"missing_info_empty_state_pending_title" = "Nothing resolved yet";
+"missing_info_empty_state_not_pending_title" = "Completed";
+"missing_info_empty_state_pending_desc" = "Once you resolve your missing information, items will appear here.";
+"missing_info_empty_state_not_pending_desc" = "You've resolved all missing information. We will let you know if further information is necessary.";
+
+"missing_info_resolve_instructions" = "Please provide Vialto Partners the required information related to this missing item. Press the add attachments to include a document with your response.";
+
+/*
+ Travel Documents Intro Screen
+ */
+
+"travel_intro_title" = "Your Security";
+"travel_intro_continue_button" = "Continue";
+"travel_intro_switch_text" = "Lock my documents using Touch ID";
+"travel_intro_message" = "The Travel Folio is a secure and convenient place to keep your important travel documents with you.  Vialto Partners recognises these documents often contain sensitive information and we use industry standard practices to safeguard them.  Your documents are encrypted on your device and your information is never shared with others, not even Vialto Partners.\n\nFor maximum security you can enable the Touch ID option on your device to use fingerprint identity to lock and access your documents.";
+"travel_intro_message_no_touch" = "The Travel Folio is a secure and convenient place to keep your important travel documents with you.  Vialto Partners recognises these documents often contain sensitive information and we use industry standard practices to safeguard them.  Your documents are encrypted on your device and your information is never shared with others, not even Vialto Partners.";
+"travel_intro_touch_id_message" = "For your security myMobility has locked your travel folio. Please use Touch ID to continue.";
+
+/*
+ Travel Documents Screen
+ */
+
+"travel_doc_window_title" = "Travel Folio";
+"travel_doc_tap_to_add" = "Suggested Document";
+"travel_doc_failed_to_save" = "Unable to save your travel document at this time. Please try again later.";
+"travel_doc_invalid_model" = "Unable to save your scanned documents.  Please try again.";
+"travel_doc_placeholder_1" = "Passport";
+"travel_doc_placeholder_2" = "Visa";
+"travel_doc_placeholder_3" = "Work Permit";
+"travel_doc_placeholder_4" = "National ID Card";
+"travel_doc_placeholder_5" = "Drivers License";
+"travel_doc_placeholder_6" = "Medical Insurance Card";
+"travel_doc_add_secure_note" = "Add Secure Note";
+"travel_doc_add_scanner" = "Add Photo Scan";
+"travel_doc_empty_title" = "Add Documents?";
+"travel_doc_empty_button_title" = "Show me the list";
+"travel_doc_empty_desc" = "You haven't added any documents yet. Tap the below to add a list of documents you might find useful.";
+"travel_doc_share_with_pwc" = "Share with Vialto Partners";
+"travel_doc_more" = "More...";
+
+"travel_file_info_name" = "Name:";
+"travel_file_info_desc" = "Description:";
+"travel_file_info_added" = "Added:";
+"Travel_file_info_comment" = "Comment:";
+
+/*
+ Camera Screen
+ */
+
+"gallery_window_title" = "Photos";
+"confirmation_screen_cancel" = "Cancel";
+"confirmation_screen_edit" = "Edit";
+"confirmation_screen_use" = "Use";
+"Allow Camera" = "Allow Camera";
+"Camera Disabled" = "Camera Disabled";
+"Denied Camera" = "Camera Access Denied";
+"Allowed Photos" = "Allowed Photos";
+"Denied Photos" = "Photo Access Denied";
+"Photos Disabled" = "Photos Disabled";
+"Show me" = "Open Settings";
+
+/*
+ Status Widget text
+ */
+
+"status_widget_no_status" = "You have no work in process by Vialto Partners at this time.";
+
+/*
+ New permissions model
+ */
+
+
+"permissions_footer" = "You can change this later using the Settings app on your device";
+"permissions_denied_open_settings" = "Open Settings";
+
+"permissions_reminder_title" = "Would you like to set Reminders?";
+"permissions_reminder_description" = "Authorizing Reminders enables you to set reminders for briefings, missing information, and other actions.";
+"permissions_denied_reminder_title" = "Please update your Reminders access";
+"permissions_denied_reminders_description" = "To use this feature you must grant myMobility access to your Reminders. Press Open Settings below to adjust your permissions.";
+
+"permissions_camera_title" = "Allowing Camera access lets you:";
+"permissions_camera_topic_1_desc" = "Scan documents directly from your device";
+"permissions_camera_topic_2_desc" = "Securely share photos with your Vialto Partners Team";
+"permissions_denied_camera_title" = "Please update your Camera access";
+"permissions_denied_camera_description" = "To use this feature you must grant myMobility access to your Camera. Press Open Settings below to adjust your permissions.";
+
+"permissions_photo_title" = "Allowing Photos access lets you:";
+"permissions_photo_description" = "Choose photos of your documents to securely share with your Vialto Partners Team";
+"permissions_denied_photos_title" = "Please update your Photos access";
+"permissions_denied_photos_description" = "To use this feature you must grant myMobility access to your Photos.  Press Open Settings below to adjust your permissions.";
+
+"permissions_calendar_title" = "Would you like to add meetings to your Calendar?";
+"permissions_calendar_description" = "Authorizing access to your Calendar enables you to add your meetings with Vialto Partners directly to your device's calendar.";
+"permissions_denied_calendar_title" = "Please update your Calendar access";
+"permissions_denied_calendar_description" = "To use this feature you must grant myMobility access to your Calendar.  Press Open Settings below to adjust your permissions.";
+
+/*
+ Date Text
+ */
+
+"month_abbr_jan" = "Jan";
+"month_abbr_feb" = "Feb";
+"month_abbr_mar" = "Mar";
+"month_abbr_apr" = "Apr";
+"month_abbr_may" = "May";
+"month_abbr_jun" = "Jun";
+"month_abbr_jul" = "Jul";
+"month_abbr_aug" = "Aug";
+"month_abbr_sep" = "Sep";
+"month_abbr_oct" = "Oct";
+"month_abbr_nov" = "Nov";
+"month_abbr_dec" = "Dec";
+
+"month_name_jan" = "January";
+"month_name_feb" = "February";
+"month_name_mar" = "March";
+"month_name_apr" = "April";
+"month_name_may" = "May";
+"month_name_jun" = "June";
+"month_name_jul" = "July";
+"month_name_aug" = "August";
+"month_name_sep" = "September";
+"month_name_oct" = "October";
+"month_name_nov" = "November";
+"month_name_dec" = "December";
+
+"weekday_name_monday" = "Monday";
+"weekday_name_tuesday" = "Tuesday";
+"weekday_name_wednesday" = "Wednesday";
+"weekday_name_thursday" = "Thursday";
+"weekday_name_friday" = "Friday";
+"weekday_name_saturday" = "Saturday";
+"weekday_name_sunday" = "Sunday";
+
+"weekday_abbr_monday" = "Mon.";
+"weekday_abbr_tuesday" = "Tue.";
+"weekday_abbr_wednesday" = "Wed.";
+"weekday_abbr_thursday" = "Thu.";
+"weekday_abbr_friday" = "Fri.";
+"weekday_abbr_saturday" = "Sat.";
+"weekday_abbr_sunday" = "Sun.";
+
+/*
+Time naming
+*/
+
+"in %.f hours" = "in %.f hours";
+"in %.f minutes" = "in %.f minutes";
+"in %.i months" = "in %.i months";
+"%.i months ago" = "%.i months ago";
+"in 1 day" = "in 1 day";
+"in 1 hour" = "in 1 hour";
+"in 1 minute" = "in 1 minute";
+"in a year" = "in a year";
+"in years" = "in years";
+"just now" = "just now";
+"last month" = "last month";
+"last week" = "last week";
+"last year" = "last year";
+"next month" = "next month";
+"next week" = "next week";
+"this week" = "this week";
+"years ago" = "years ago";
+"%.f hours ago" = "%.f hours ago";
+"%.f minutes ago" = "%.f minutes ago";
+"%.f years ago" = "%.f years ago";
+"1 day ago" = "1 day ago";
+"1 hour ago" = "1 hour ago";
+"1 minute ago" = "1 minute ago";
+"in %.f years" = "in %.f years";
+
+/*
+Permissions Section
+*/
+
+"Allow Bluetooth" = "Allow Bluetooth";
+"Allow Contacts" = "Allow Contacts";
+"Allow Events" = "Allow Events";
+"Allow Microphone" = "Allow Microphone";
+"Allow Motion" = "Allow Motion";
+"Allow Notifications" = "Allow Notifications";
+"Allow Photos" = "Allow Photos";
+"Allow Reminders" = "Allow Reminders";
+"Allowed Bluetooth" = "Allowed Bluetooth";
+"Allowed Camera" = "Allowed Camera";
+"Allowed Contacts" = "Allowed Contacts";
+"Allowed Events" = "Allowed Events";
+"Allowed Location" = "Allowed Location";
+"Allowed Microphone" = "Allowed Microphone";
+"Allowed Motion" = "Allowed Motion";
+"Allowed Notifications" = "Allowed Notifications";
+"Allowed Reminders" = "Allowed Reminders";
+"Bluetooth" = "Bluetooth";
+"Bluetooth Disabled" = "Bluetooth Disabled";
+"Bluetooth is currently disabled." = "Bluetooth is currently disabled.";
+"Camera" = "Camera";
+"Camera is currently disabled." = "Camera is currently disabled.";
+"Contacts" = "Contacts";
+"Contacts Disabled" = "Contacts Disabled";
+"Contacts is currently disabled." = "Contacts is currently disabled.";
+"Denied Bluetooth" = "Denied Bluetooth";
+"Denied Contacts" = "Denied Contacts";
+"Denied Events" = "Denied Events";
+"Denied Location" = "Denied Location";
+"Denied Microphone" = "Denied Microphone";
+"Denied Motion" = "Denied Motion";
+"Denied Notifications" = "Denied Notifications";
+"Denied Reminders" = "Denied Reminders";
+"Enable Location" = "Enable Location";
+"Events" = "Events";
+"Events Disabled" = "Events Disabled";
+"Events is currently disabled." = "Events is currently disabled.";
+"Hey, listen!" = "Hey, listen!";
+"Location Disabled" = "Location Disabled";
+"Location is currently disabled." = "Location is currently disabled.";
+"LocationAlways" = "LocationAlways";
+"LocationInUse" = "LocationInUse";
+"Microphone" = "Microphone";
+"Microphone Disabled" = "Microphone Disabled";
+"Microphone is currently disabled." = "Microphone is currently disabled.";
+"Motion" = "Motion";
+"Motion Disabled" = "Motion Disabled";
+"Motion is currently disabled." = "Motion is currently disabled.";
+"Notifications" = "Notifications";
+"Notifications Disabled" = "Notifications Disabled";
+"Notifications is currently disabled." = "Notifications is currently disabled.";
+"OK" = "OK";
+"Permission for Bluetooth was denied." = "Permission for Bluetooth was denied.";
+"Permission for Camera was denied." = "Permission for Camera was denied.";
+"Permission for Contacts was denied." = "Permission for Contacts was denied.";
+"Permission for Events was denied." = "Permission for Events was denied.";
+"Permission for Location was denied." = "Permission for Location was denied.";
+"Permission for Microphone was denied." = "Permission for Microphone was denied.";
+"Permission for Motion was denied." = "Permission for Motion was denied.";
+"Permission for Notifications was denied." = "Permission for Notifications was denied.";
+"Permission for Photos was denied." = "Permission for Photos was denied.";
+"Permission for Reminders was denied." = "Permission for Reminders was denied.";
+"Photos" = "Photos";
+"Photos is currently disabled." = "Photos is currently disabled.";
+"Please enable access to Bluetooth in Settings" = "Please enable access to Bluetooth in Settings";
+"Please enable access to Bluetooth in the Settings app" = "Please enable access to Bluetooth in the Settings app";
+"Please enable access to Camera in Settings" = "Please enable access to Camera in Settings";
+"Please enable access to Camera in the Settings app" = "Please enable access to Camera in the Settings app";
+"Please enable access to Contacts in Settings" = "Please enable access to Contacts in Settings";
+"Please enable access to Contacts in the Settings app" = "Please enable access to Contacts in the Settings app";
+"Please enable access to Events in Settings" = "Please enable access to Events in Settings";
+"Please enable access to Events in the Settings app" = "Please enable access to Events in the Settings app";
+"Please enable access to Location in Settings" = "Please enable access to Location in Settings";
+"Please enable access to Location in the Settings app" = "Please enable access to Location in the Settings app";
+"Please enable access to Microphone in Settings" = "Please enable access to Microphone in Settings";
+"Please enable access to Microphone in the Settings app" = "Please enable access to Microphone in the Settings app";
+"Please enable access to Motion in Settings" = "Please enable access to Motion in Settings";
+"Please enable access to Motion in the Settings app" = "Please enable access to Motion in the Settings app";
+"Please enable access to Notifications in Settings" = "Please enable access to Notifications in Settings";
+"Please enable access to Notifications in the Settings app" = "Please enable access to Notifications in the Settings app";
+"Please enable access to Photos in Settings" = "Please enable access to Photos in Settings";
+"Please enable access to Photos in the Settings app" = "Please enable access to Photos in the Settings app";
+"Please enable access to Reminders in Settings" = "Please enable access to Reminders in Settings";
+"Please enable access to Reminders in the Settings app" = "Please enable access to Reminders in the Settings app";
+"Reminders" = "Reminders";
+"Reminders Disabled" = "Reminders Disabled";
+"Reminders is currently disabled." = "Reminders is currently disabled.";
+"We need a couple things\r\nbefore you get started." = "We need a couple things\r\nbefore you get started.";
+
+/*
+Country Names
+*/
+
+"COUNTRY_AD" = "Andorra";
+"COUNTRY_AE" = "United Arab Emirates";
+"COUNTRY_AF" = "Afghanistan";
+"COUNTRY_AG" = "Antigua and Barbuda";
+"COUNTRY_AI" = "Anguilla";
+"COUNTRY_AL" = "Albania";
+"COUNTRY_AM" = "Armenia";
+"COUNTRY_AN" = "Netherlands Antilles";
+"COUNTRY_AO" = "Angola";
+"COUNTRY_AQ" = "Antarctica";
+"COUNTRY_AR" = "Argentina";
+"COUNTRY_AS" = "American Samoa";
+"COUNTRY_AT" = "Austria";
+"COUNTRY_AU" = "Australia";
+"COUNTRY_AW" = "Aruba";
+"COUNTRY_AZ" = "Azerbaijan";
+"COUNTRY_BA" = "Bosnia and Herzegovina";
+"COUNTRY_BB" = "Barbados";
+"COUNTRY_BD" = "Bangladesh";
+"COUNTRY_BE" = "Belgium";
+"COUNTRY_BF" = "Burkina Faso";
+"COUNTRY_BG" = "Bulgaria";
+"COUNTRY_BH" = "Bahrain";
+"COUNTRY_BI" = "Burundi";
+"COUNTRY_BJ" = "Benin";
+"COUNTRY_BL" = "Saint Barthélemy";
+"COUNTRY_BM" = "Bermuda";
+"COUNTRY_BN" = "Brunei";
+"COUNTRY_BO" = "Bolivia";
+"COUNTRY_BR" = "Brazil";
+"COUNTRY_BS" = "Bahamas";
+"COUNTRY_BT" = "Bhutan";
+"COUNTRY_BV" = "Bouvet Island";
+"COUNTRY_BW" = "Botswana";
+"COUNTRY_BY" = "Belarus";
+"COUNTRY_BZ" = "Belize";
+"COUNTRY_CA" = "Canada";
+"COUNTRY_CC" = "Cocos (Keeling) Islands";
+"COUNTRY_CD" = "DR Congo";
+"COUNTRY_CF" = "Central African Republic";
+"COUNTRY_CG" = "Congo";
+"COUNTRY_CH" = "Switzerland";
+"COUNTRY_CI" = "Cote d'Ivoire";
+"COUNTRY_CK" = "Cook Islands";
+"COUNTRY_CL" = "Chile";
+"COUNTRY_CM" = "Cameroon";
+"COUNTRY_CN" = "China";
+"COUNTRY_CO" = "Colombia";
+"COUNTRY_CR" = "Costa Rica";
+"COUNTRY_CU" = "Cuba";
+"COUNTRY_CV" = "Cape Verde";
+"COUNTRY_CX" = "Christmas Island";
+"COUNTRY_CY" = "Cyprus";
+"COUNTRY_CZ" = "Czech Republic";
+"COUNTRY_DE" = "Germany";
+"COUNTRY_DJ" = "Djibouti";
+"COUNTRY_DK" = "Denmark";
+"COUNTRY_DM" = "Dominica";
+"COUNTRY_DO" = "Dominican Republic";
+"COUNTRY_DZ" = "Algeria";
+"COUNTRY_EC" = "Ecuador";
+"COUNTRY_EE" = "Estonia";
+"COUNTRY_EG" = "Egypt";
+"COUNTRY_EH" = "Western Sahara";
+"COUNTRY_ER" = "Eritrea";
+"COUNTRY_ES" = "Spain";
+"COUNTRY_ET" = "Ethiopia";
+"COUNTRY_FI" = "Finland";
+"COUNTRY_FJ" = "Fiji";
+"COUNTRY_FK" = "Falkland Islands (Malvinas)";
+"COUNTRY_FM" = "Micronesia, Federated States of";
+"COUNTRY_FO" = "Faroe Islands";
+"COUNTRY_FR" = "France";
+"COUNTRY_FX" = "France, Metropolitan";
+"COUNTRY_GA" = "Gabon";
+"COUNTRY_GD" = "Grenada";
+"COUNTRY_GE" = "Georgia";
+"COUNTRY_GF" = "French Guiana";
+"COUNTRY_GG" = "Guernsey";
+"COUNTRY_GH" = "Ghana";
+"COUNTRY_GI" = "Gibraltar";
+"COUNTRY_GL" = "Greenland";
+"COUNTRY_GM" = "Gambia";
+"COUNTRY_GN" = "Guinea";
+"COUNTRY_GP" = "Guadeloupe";
+"COUNTRY_GQ" = "Equatorial Guinea";
+"COUNTRY_GR" = "Greece";
+"COUNTRY_GS" = "South Georgia and the South Sandwich Islands";
+"COUNTRY_GT" = "Guatemala";
+"COUNTRY_GU" = "Guam";
+"COUNTRY_GW" = "Guinea-Bissau";
+"COUNTRY_GY" = "Guyana";
+"COUNTRY_HK" = "Hong Kong";
+"COUNTRY_HM" = "Heard Island and McDonald Islands";
+"COUNTRY_HN" = "Honduras";
+"COUNTRY_HR" = "Croatia";
+"COUNTRY_HT" = "Haiti";
+"COUNTRY_HU" = "Hungary";
+"COUNTRY_ID" = "Indonesia";
+"COUNTRY_IE" = "Ireland";
+"COUNTRY_IL" = "Israel";
+"COUNTRY_IM" = "Isle of Man";
+"COUNTRY_IN" = "India";
+"COUNTRY_IO" = "British Indian Ocean Territory";
+"COUNTRY_IQ" = "Iraq";
+"COUNTRY_IR" = "Iran";
+"COUNTRY_IS" = "Iceland";
+"COUNTRY_IT" = "Italy";
+"COUNTRY_JE" = "Jersey";
+"COUNTRY_JM" = "Jamaica";
+"COUNTRY_JO" = "Jordan";
+"COUNTRY_JP" = "Japan";
+"COUNTRY_KE" = "Kenya";
+"COUNTRY_KG" = "Kyrgyzstan";
+"COUNTRY_KH" = "Cambodia";
+"COUNTRY_KI" = "Kiribati";
+"COUNTRY_KM" = "Comoros";
+"COUNTRY_KN" = "Saint Kitts and Nevis";
+"COUNTRY_KP" = "North Korea";
+"COUNTRY_KR" = "South Korea";
+"COUNTRY_KW" = "Kuwait";
+"COUNTRY_KY" = "Cayman Islands";
+"COUNTRY_KZ" = "Kazakhstan";
+"COUNTRY_LA" = "Laos";
+"COUNTRY_LB" = "Lebanon";
+"COUNTRY_LC" = "Saint Lucia";
+"COUNTRY_LI" = "Liechtenstein";
+"COUNTRY_LK" = "Sri Lanka";
+"COUNTRY_LR" = "Liberia";
+"COUNTRY_LS" = "Lesotho";
+"COUNTRY_LT" = "Lithuania";
+"COUNTRY_LU" = "Luxembourg";
+"COUNTRY_LV" = "Latvia";
+"COUNTRY_LY" = "Libya";
+"COUNTRY_MA" = "Morocco";
+"COUNTRY_MC" = "Monaco";
+"COUNTRY_MD" = "Moldova";
+"COUNTRY_ME" = "Montenegro";
+"COUNTRY_MF" = "Saint Martin (French)";
+"COUNTRY_MG" = "Madagascar";
+"COUNTRY_MH" = "Marshall Islands";
+"COUNTRY_MK" = "Macedonia";
+"COUNTRY_ML" = "Mali";
+"COUNTRY_MM" = "Myanmar";
+"COUNTRY_MN" = "Mongolia";
+"COUNTRY_MO" = "Macao";
+"COUNTRY_MP" = "Northern Mariana Islands";
+"COUNTRY_MQ" = "Martinique";
+"COUNTRY_MR" = "Mauritania";
+"COUNTRY_MS" = "Montserrat";
+"COUNTRY_MT" = "Malta";
+"COUNTRY_MU" = "Mauritius";
+"COUNTRY_MV" = "Maldives";
+"COUNTRY_MW" = "Malawi";
+"COUNTRY_MX" = "Mexico";
+"COUNTRY_MY" = "Malaysia";
+"COUNTRY_MZ" = "Mozambique";
+"COUNTRY_NA" = "Namibia";
+"COUNTRY_NC" = "New Caledonia";
+"COUNTRY_NE" = "Niger";
+"COUNTRY_NF" = "Norfolk Island";
+"COUNTRY_NG" = "Nigeria";
+"COUNTRY_NI" = "Nicaragua";
+"COUNTRY_NL" = "Netherlands";
+"COUNTRY_NO" = "Norway";
+"COUNTRY_NOT_SELECTED" = "Not Selected";
+"COUNTRY_NP" = "Nepal";
+"COUNTRY_NR" = "Nauru";
+"COUNTRY_NU" = "Niue";
+"COUNTRY_NZ" = "New Zealand";
+"COUNTRY_OM" = "Oman";
+"COUNTRY_OT" = "Other Territories";
+"COUNTRY_PA" = "Panama";
+"COUNTRY_PE" = "Peru";
+"COUNTRY_PF" = "French Polynesia";
+"COUNTRY_PG" = "Papua New Guinea";
+"COUNTRY_PH" = "Philippines";
+"COUNTRY_PK" = "Pakistan";
+"COUNTRY_PL" = "Poland";
+"COUNTRY_PM" = "Saint Pierre and Miquelon";
+"COUNTRY_PN" = "Pitcairn";
+"COUNTRY_PR" = "Puerto Rico";
+"COUNTRY_PS" = "Palestinian Territory, Occupied";
+"COUNTRY_PT" = "Portugal";
+"COUNTRY_PW" = "Palau";
+"COUNTRY_PY" = "Paraguay";
+"COUNTRY_QA" = "Qatar";
+"COUNTRY_RE" = "Réunion";
+"COUNTRY_RO" = "Romania";
+"COUNTRY_RS" = "Serbia";
+"COUNTRY_RU" = "Russia";
+"COUNTRY_RW" = "Rwanda";
+"COUNTRY_SA" = "Saudi Arabia";
+"COUNTRY_SB" = "Solomon Islands";
+"COUNTRY_SC" = "Seychelles";
+"COUNTRY_SD" = "Sudan";
+"COUNTRY_SE" = "Sweden";
+"COUNTRY_SG" = "Singapore";
+"COUNTRY_SH" = "Saint Helena";
+"COUNTRY_SI" = "Slovenia";
+"COUNTRY_SK" = "Slovakia";
+"COUNTRY_SL" = "Sierra Leone";
+"COUNTRY_SM" = "San Marino";
+"COUNTRY_SN" = "Senegal";
+"COUNTRY_SO" = "Somalia";
+"COUNTRY_SR" = "Suriname";
+"COUNTRY_ST" = "Sao Tome and Principe";
+"COUNTRY_SV" = "El Salvador";
+"COUNTRY_SY" = "Syria";
+"COUNTRY_SZ" = "Swaziland";
+"COUNTRY_TC" = "Turks and Caicos Islands";
+"COUNTRY_TD" = "Chad";
+"COUNTRY_TF" = "French Southern Territories";
+"COUNTRY_TG" = "Togo";
+"COUNTRY_TH" = "Thailand";
+"COUNTRY_TJ" = "Tajikistan";
+"COUNTRY_TK" = "Tokelau";
+"COUNTRY_TL" = "Timor-Leste";
+"COUNTRY_TM" = "Turkmenistan";
+"COUNTRY_TN" = "Tunisia";
+"COUNTRY_TO" = "Tonga";
+"COUNTRY_TR" = "Turkey";
+"COUNTRY_TT" = "Trinidad and Tobago";
+"COUNTRY_TV" = "Tuvalu";
+"COUNTRY_TW" = "Taiwan";
+"COUNTRY_TZ" = "Tanzania";
+"COUNTRY_UA" = "Ukraine";
+"COUNTRY_UG" = "Uganda";
+"COUNTRY_UK" = "United Kingdom";
+"COUNTRY_UM" = "United States Minor Outlying Islands";
+"COUNTRY_US" = "United States";
+"COUNTRY_UY" = "Uruguay";
+"COUNTRY_UZ" = "Uzbekistan";
+"COUNTRY_VA" = "Vatican City State (Holy See)";
+"COUNTRY_VC" = "Saint Vincent and the Grenadines";
+"COUNTRY_VE" = "Venezuela";
+"COUNTRY_VG" = "Virgin Islands, British";
+"COUNTRY_VI" = "Virgin Islands, U.S.";
+"COUNTRY_VN" = "Vietnam";
+"COUNTRY_VU" = "Vanuatu";
+"COUNTRY_WF" = "Wallis and Futuna";
+"COUNTRY_WS" = "Samoa";
+"COUNTRY_XK" = "Kosovo";
+"COUNTRY_YE" = "Yemen";
+"COUNTRY_YT" = "Mayotte";
+"COUNTRY_YU" = "Serbia and Montenegro";
+"COUNTRY_ZA" = "South Africa";
+"COUNTRY_ZM" = "Zambia";
+"COUNTRY_ZW" = "Zimbabwe";
+
+/*
+ Help Center
+*/
+
+"tax_help" = "Tax Help";
+"your_tax_team" = "Your Tax Team:";
+"tax_help_sub_title" = "Have a question related to your tax questionnaire, tax return items, or general tax matters?";
+
+"immigration_help" = "Immigration Help";
+"your_immigration_team" = "Your Immigration Team:";
+"immigration_help_sub_title" = "Have a question related to your immigration questionnaire, or other immigration matters?";
+
+"social_security_help" = "Social Security Help";
+"your_social_security_team" = "Your Social Security Team:";
+"social_security_sub_title" = "Have a question about your global social security?";
+
+
+"technology" = "Technology";
+"your_technology_team" = "Your Technology Team:";
+"technology_sub_title" = "Have question related to your technology questionnaire or other technology matters?";
+
+
+"managed_services" = "Managed Services";
+"your_managed_services_team" = "Your Managed Services Team:";
+"managed_services_sub_title" = "Have a question about your move, mobility policy/process, or related services?";
+
+"ask_a_question" = "Ask a question";
+
+"vialto_app_support" = "Vialto App Support";
+
+"vialto_app_support_sub_title" = "Do you need help with myMobility or technical support?";

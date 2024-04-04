@@ -1,0 +1,16 @@
+<svg width="48" height="43" viewBox="0 0 48 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.4901 32.01H4.56006" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29.5901 28.6V39.97H3.58008V36.95" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4.52002 20H17.49" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17.4901 15.99H4.62012" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26.53 26.1001L26.53 6.06995H29.59V18.5" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0.790039 10.03H9.57004V1.33997" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9.61 1L0.5 9.73V36.92H26.53V27.98" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4.52002 28.01H17.49" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4.52002 24H17.49" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9.57007 1H26.5301V6.5" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="22" y="17.5" width="25" height="25" rx="12.5" fill="#063636"/>
+<path d="M37.0071 22.4545V37H33.9318V25.3736H33.8466L30.5156 27.4616V24.7344L34.1165 22.4545H37.0071Z" fill="#063636"/>
+<path d="M37.0071 22.4545H38.0071V21.4545H37.0071V22.4545ZM37.0071 37V38H38.0071V37H37.0071ZM33.9318 37H32.9318V38H33.9318V37ZM33.9318 25.3736H34.9318V24.3736H33.9318V25.3736ZM33.8466 25.3736V24.3736H33.5591L33.3155 24.5263L33.8466 25.3736ZM30.5156 27.4616H29.5156V29.2688L31.0468 28.3089L30.5156 27.4616ZM30.5156 24.7344L29.9807 23.8895L29.5156 24.1839V24.7344H30.5156ZM34.1165 22.4545V21.4545H33.8265L33.5815 21.6097L34.1165 22.4545ZM36.0071 22.4545V37H38.0071V22.4545H36.0071ZM37.0071 36H33.9318V38H37.0071V36ZM34.9318 37V25.3736H32.9318V37H34.9318ZM33.9318 24.3736H33.8466V26.3736H33.9318V24.3736ZM33.3155 24.5263L29.9845 26.6144L31.0468 28.3089L34.3777 26.2209L33.3155 24.5263ZM31.5156 27.4616V24.7344H29.5156V27.4616H31.5156ZM31.0506 25.5793L34.6514 23.2994L33.5815 21.6097L29.9807 23.8895L31.0506 25.5793ZM34.1165 23.4545H37.0071V21.4545H34.1165V23.4545Z" fill="#1CDBBC"/>
+<rect x="22" y="17.5" width="25" height="25" rx="12.5" stroke="#1CDBBC"/>
+</svg>

@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0817C49829EC4A740066B3A8 /* TaxSummaryPaperfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0817C49729EC4A740066B3A8 /* TaxSummaryPaperfileView.swift */; };
+		0817C49A29ECF8630066B3A8 /* ViewTaxReturnPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0817C49929ECF8630066B3A8 /* ViewTaxReturnPage.swift */; };
+		0851655829D2FC6C00814EC9 /* TaxSummaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0851655729D2FC6C00814EC9 /* TaxSummaryModel.swift */; };
+		0851655A29D2FF2D00814EC9 /* FilingDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0851655929D2FF2D00814EC9 /* FilingDetailsModel.swift */; };
+		0857948E2A20C53B0026F72E /* TaxsummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0857948D2A20C53B0026F72E /* TaxsummaryView.swift */; };
+		085794902A20C56E0026F72E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0857948F2A20C56E0026F72E /* Localizable.strings */; };
+		086F7A8929C0322500A0B81F /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F7A8829C0322500A0B81F /* TasksView.swift */; };
+		086F7A9D29C2F18000A0B81F /* ViewSummaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F7A9C29C2F18000A0B81F /* ViewSummaryModel.swift */; };
+		086F7AA329C3823200A0B81F /* TaxInsightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F7AA229C3823200A0B81F /* TaxInsightViewModel.swift */; };
+		086FB5A629DE8D50009D739C /* TaxSummaryEfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086FB5A529DE8D50009D739C /* TaxSummaryEfileView.swift */; };
+		0875236629BB2F59008EE7B3 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0875236529BB2F59008EE7B3 /* MainContentView.swift */; };
+		08912E8D29B6291B004B18CA /* MyTaxReturnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08912E8C29B6291B004B18CA /* MyTaxReturnView.swift */; };
+		08912E8F29B711CB004B18CA /* Fonts+VialtoFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08912E8E29B711CB004B18CA /* Fonts+VialtoFonts.swift */; };
+		08912E9429B85A3B004B18CA /* StoryTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08912E9329B85A3B004B18CA /* StoryTimer.swift */; };
+		08912E9629B85A5B004B18CA /* LoadingRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08912E9529B85A5B004B18CA /* LoadingRectangle.swift */; };
+		08912E9829B85D1C004B18CA /* TabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08912E9729B85D1C004B18CA /* TabItemView.swift */; };
+		08912E9A29B9A34D004B18CA /* TaxStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08912E9929B9A34D004B18CA /* TaxStoryView.swift */; };
+		08CE95AE29F8F78B006FED97 /* CARDVIEW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CE95AD29F8F78B006FED97 /* CARDVIEW.swift */; };
+		4E8E70B229AE1BC8001F1A4B /* CustomTopTabBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8E70B129AE1BC8001F1A4B /* CustomTopTabBarApp.swift */; };
+		4E8E70B629AE1BCA001F1A4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8E70B529AE1BCA001F1A4B /* Assets.xcassets */; };
+		4E8E70B929AE1BCA001F1A4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8E70B829AE1BCA001F1A4B /* Preview Assets.xcassets */; };
+		4E8E70C329AE1C08001F1A4B /* TaxInsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8E70C229AE1C08001F1A4B /* TaxInsightsView.swift */; };
+		4E8E70C529AE3254001F1A4B /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8E70C429AE3254001F1A4B /* CustomTabView.swift */; };
+		4E8E70C729AE3BB2001F1A4B /* Color+VialtoColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8E70C629AE3BB2001F1A4B /* Color+VialtoColors.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0817C49729EC4A740066B3A8 /* TaxSummaryPaperfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxSummaryPaperfileView.swift; sourceTree = "<group>"; };
+		0817C49929ECF8630066B3A8 /* ViewTaxReturnPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTaxReturnPage.swift; sourceTree = "<group>"; };
+		0851655729D2FC6C00814EC9 /* TaxSummaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxSummaryModel.swift; sourceTree = "<group>"; };
+		0851655929D2FF2D00814EC9 /* FilingDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilingDetailsModel.swift; sourceTree = "<group>"; };
+		0857948D2A20C53B0026F72E /* TaxsummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxsummaryView.swift; sourceTree = "<group>"; };
+		0857948F2A20C56E0026F72E /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		086F7A8829C0322500A0B81F /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		086F7A9C29C2F18000A0B81F /* ViewSummaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSummaryModel.swift; sourceTree = "<group>"; };
+		086F7AA229C3823200A0B81F /* TaxInsightViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxInsightViewModel.swift; sourceTree = "<group>"; };
+		086FB5A529DE8D50009D739C /* TaxSummaryEfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxSummaryEfileView.swift; sourceTree = "<group>"; };
+		0875236529BB2F59008EE7B3 /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
+		08912E8C29B6291B004B18CA /* MyTaxReturnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTaxReturnView.swift; sourceTree = "<group>"; };
+		08912E8E29B711CB004B18CA /* Fonts+VialtoFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fonts+VialtoFonts.swift"; sourceTree = "<group>"; };
+		08912E9329B85A3B004B18CA /* StoryTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTimer.swift; sourceTree = "<group>"; };
+		08912E9529B85A5B004B18CA /* LoadingRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingRectangle.swift; sourceTree = "<group>"; };
+		08912E9729B85D1C004B18CA /* TabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemView.swift; sourceTree = "<group>"; };
+		08912E9929B9A34D004B18CA /* TaxStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxStoryView.swift; sourceTree = "<group>"; };
+		08CE95AD29F8F78B006FED97 /* CARDVIEW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CARDVIEW.swift; sourceTree = "<group>"; };
+		4E8E70AE29AE1BC7001F1A4B /* CustomTopTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTopTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8E70B129AE1BC8001F1A4B /* CustomTopTabBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTopTabBarApp.swift; sourceTree = "<group>"; };
+		4E8E70B529AE1BCA001F1A4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E8E70B829AE1BCA001F1A4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4E8E70C229AE1C08001F1A4B /* TaxInsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxInsightsView.swift; sourceTree = "<group>"; };
+		4E8E70C429AE3254001F1A4B /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		4E8E70C629AE3BB2001F1A4B /* Color+VialtoColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+VialtoColors.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E8E70AB29AE1BC7001F1A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0817C49429EC49F30066B3A8 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		086F7A9A29C2F15C00A0B81F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0817C49429EC49F30066B3A8 /* Payment */,
+				08912E9029B859E8004B18CA /* StoriesView */,
+				08912E8B29B628F9004B18CA /* TabViews */,
+				086FB5A529DE8D50009D739C /* TaxSummaryEfileView.swift */,
+				0817C49729EC4A740066B3A8 /* TaxSummaryPaperfileView.swift */,
+				0817C49929ECF8630066B3A8 /* ViewTaxReturnPage.swift */,
+				08CE95AD29F8F78B006FED97 /* CARDVIEW.swift */,
+				0857948D2A20C53B0026F72E /* TaxsummaryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		086F7A9B29C2F16600A0B81F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				086F7A9C29C2F18000A0B81F /* ViewSummaryModel.swift */,
+				0851655729D2FC6C00814EC9 /* TaxSummaryModel.swift */,
+				0851655929D2FF2D00814EC9 /* FilingDetailsModel.swift */,
+				086F7AA229C3823200A0B81F /* TaxInsightViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		08912E8B29B628F9004B18CA /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				4E8E70C429AE3254001F1A4B /* CustomTabView.swift */,
+				08912E9729B85D1C004B18CA /* TabItemView.swift */,
+				08912E8C29B6291B004B18CA /* MyTaxReturnView.swift */,
+				086F7A8829C0322500A0B81F /* TasksView.swift */,
+				4E8E70C229AE1C08001F1A4B /* TaxInsightsView.swift */,
+			);
+			path = TabViews;
+			sourceTree = "<group>";
+		};
+		08912E9029B859E8004B18CA /* StoriesView */ = {
+			isa = PBXGroup;
+			children = (
+				08912E9929B9A34D004B18CA /* TaxStoryView.swift */,
+				08912E9329B85A3B004B18CA /* StoryTimer.swift */,
+				08912E9529B85A5B004B18CA /* LoadingRectangle.swift */,
+			);
+			path = StoriesView;
+			sourceTree = "<group>";
+		};
+		4E8E70A529AE1BC7001F1A4B = {
+			isa = PBXGroup;
+			children = (
+				4E8E70B029AE1BC7001F1A4B /* CustomTopTabBar */,
+				4E8E70AF29AE1BC7001F1A4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E8E70AF29AE1BC7001F1A4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E8E70AE29AE1BC7001F1A4B /* CustomTopTabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E8E70B029AE1BC7001F1A4B /* CustomTopTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				4E8E70B129AE1BC8001F1A4B /* CustomTopTabBarApp.swift */,
+				0875236529BB2F59008EE7B3 /* MainContentView.swift */,
+				0857948F2A20C56E0026F72E /* Localizable.strings */,
+				086F7A9B29C2F16600A0B81F /* Model */,
+				086F7A9A29C2F15C00A0B81F /* Views */,
+				4E8E70BF29AE1BEC001F1A4B /* AppTheme */,
+				4E8E70B529AE1BCA001F1A4B /* Assets.xcassets */,
+				4E8E70B729AE1BCA001F1A4B /* Preview Content */,
+			);
+			path = CustomTopTabBar;
+			sourceTree = "<group>";
+		};
+		4E8E70B729AE1BCA001F1A4B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4E8E70B829AE1BCA001F1A4B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4E8E70BF29AE1BEC001F1A4B /* AppTheme */ = {
+			isa = PBXGroup;
+			children = (
+				08912E8E29B711CB004B18CA /* Fonts+VialtoFonts.swift */,
+				4E8E70C629AE3BB2001F1A4B /* Color+VialtoColors.swift */,
+			);
+			path = AppTheme;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E8E70AD29AE1BC7001F1A4B /* CustomTopTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8E70BC29AE1BCA001F1A4B /* Build configuration list for PBXNativeTarget "CustomTopTabBar" */;
+			buildPhases = (
+				4E8E70AA29AE1BC7001F1A4B /* Sources */,
+				4E8E70AB29AE1BC7001F1A4B /* Frameworks */,
+				4E8E70AC29AE1BC7001F1A4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomTopTabBar;
+			productName = CustomTopTabBar;
+			productReference = 4E8E70AE29AE1BC7001F1A4B /* CustomTopTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E8E70A629AE1BC7001F1A4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4E8E70AD29AE1BC7001F1A4B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 4E8E70A929AE1BC7001F1A4B /* Build configuration list for PBXProject "CustomTopTabBar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E8E70A529AE1BC7001F1A4B;
+			productRefGroup = 4E8E70AF29AE1BC7001F1A4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E8E70AD29AE1BC7001F1A4B /* CustomTopTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E8E70AC29AE1BC7001F1A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8E70B929AE1BCA001F1A4B /* Preview Assets.xcassets in Resources */,
+				085794902A20C56E0026F72E /* Localizable.strings in Resources */,
+				4E8E70B629AE1BCA001F1A4B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E8E70AA29AE1BC7001F1A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08912E8F29B711CB004B18CA /* Fonts+VialtoFonts.swift in Sources */,
+				086F7A9D29C2F18000A0B81F /* ViewSummaryModel.swift in Sources */,
+				086F7AA329C3823200A0B81F /* TaxInsightViewModel.swift in Sources */,
+				086F7A8929C0322500A0B81F /* TasksView.swift in Sources */,
+				08912E9A29B9A34D004B18CA /* TaxStoryView.swift in Sources */,
+				4E8E70C529AE3254001F1A4B /* CustomTabView.swift in Sources */,
+				08912E9429B85A3B004B18CA /* StoryTimer.swift in Sources */,
+				4E8E70C729AE3BB2001F1A4B /* Color+VialtoColors.swift in Sources */,
+				4E8E70C329AE1C08001F1A4B /* TaxInsightsView.swift in Sources */,
+				086FB5A629DE8D50009D739C /* TaxSummaryEfileView.swift in Sources */,
+				08CE95AE29F8F78B006FED97 /* CARDVIEW.swift in Sources */,
+				08912E8D29B6291B004B18CA /* MyTaxReturnView.swift in Sources */,
+				08912E9829B85D1C004B18CA /* TabItemView.swift in Sources */,
+				0817C49829EC4A740066B3A8 /* TaxSummaryPaperfileView.swift in Sources */,
+				0851655A29D2FF2D00814EC9 /* FilingDetailsModel.swift in Sources */,
+				0851655829D2FC6C00814EC9 /* TaxSummaryModel.swift in Sources */,
+				0857948E2A20C53B0026F72E /* TaxsummaryView.swift in Sources */,
+				08912E9629B85A5B004B18CA /* LoadingRectangle.swift in Sources */,
+				4E8E70B229AE1BC8001F1A4B /* CustomTopTabBarApp.swift in Sources */,
+				0817C49A29ECF8630066B3A8 /* ViewTaxReturnPage.swift in Sources */,
+				0875236629BB2F59008EE7B3 /* MainContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4E8E70BA29AE1BCA001F1A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E8E70BB29AE1BCA001F1A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E8E70BD29AE1BCA001F1A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomTopTabBar/Preview Content\"";
+				DEVELOPMENT_TEAM = 4G4VB8MXNP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vialto.CustomTopTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E8E70BE29AE1BCA001F1A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomTopTabBar/Preview Content\"";
+				DEVELOPMENT_TEAM = 4G4VB8MXNP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vialto.CustomTopTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E8E70A929AE1BC7001F1A4B /* Build configuration list for PBXProject "CustomTopTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8E70BA29AE1BCA001F1A4B /* Debug */,
+				4E8E70BB29AE1BCA001F1A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E8E70BC29AE1BCA001F1A4B /* Build configuration list for PBXNativeTarget "CustomTopTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8E70BD29AE1BCA001F1A4B /* Debug */,
+				4E8E70BE29AE1BCA001F1A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E8E70A629AE1BC7001F1A4B /* Project object */;
+}

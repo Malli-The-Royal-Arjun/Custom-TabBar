@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "alert-circle-bold.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
